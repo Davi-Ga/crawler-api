@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  api:
+    container_name: api
+    command: sh -c "uvicorn main:app --host 0.0.0.0 --port 8686 --reload"
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    volumes:
+      - ./app:/app
+    expose:
+      - 8686:8686
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx-api
+    restart: unless-stopped
+    ports:
+      - 8686:8686
+    volumes:
+      - ./app:/app
+      - ./nginx:/etc/nginx/conf.d
+    depends_on:
+      - api
+    
