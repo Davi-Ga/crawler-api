@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from typing import Union
 from config import config
+from app.router.endpoints import api_router
 
 app = FastAPI(
     title=config.PROJECT_NAME, 
@@ -9,8 +10,12 @@ app = FastAPI(
     debug=config.DEBUG
     )
 
+app.include_router(api_router,prefix=config.API_PREFIX)
+
 @app.get("/")
 def root():
     return {"message": "Hello World"}
+
+
 
 
