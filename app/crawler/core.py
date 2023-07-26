@@ -14,16 +14,21 @@ def generate_url(name:str)->str:
     return f"https://www.jusbrasil.com.br/jurisprudencia/busca?q={processed_name}"
 
 def get_page(url:str)->bs.BeautifulSoup:
-    dr=webdriver.Chrome()
+    options=webdriver.ChromeOptions()
+    options.add_argument('--headless=new')
+    dr=webdriver.Chrome(options=options)
+    
     dr.get(url)
     soup = bs.BeautifulSoup(dr.page_source, 'html.parser')
+    
     return soup
 
 def get_jurisprudences(name:str)->List[str]:
     url=generate_url(name)
     page=get_page(url)
-    raw=page.find_all(class_='SearchResults-documents')
-    return raw
+    raw=page.find_all(class_='DocumentSnippet')
+    jurisprudences=[jurisprudence.find(class_='BaseSnippetWrapper-body').text for jurisprudence in raw]
+    return jurisprudences
 
 if __name__ == "__main__":
     print(get_jurisprudences("Roberto Naves"))
