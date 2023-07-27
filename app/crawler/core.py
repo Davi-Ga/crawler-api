@@ -1,10 +1,8 @@
-import requests as rq
 import bs4 as bs
 from typing import List
-from aiohttp import ClientSession
-import asyncio
 from fastapi import HTTPException,status
 from selenium import webdriver
+
 
 
 
@@ -16,19 +14,28 @@ def generate_url(name:str)->str:
 def get_page(url:str)->bs.BeautifulSoup:
     options=webdriver.ChromeOptions()
     options.add_argument('--headless=new')
+    options.add_argument('--no-sandbox')
     dr=webdriver.Chrome(options=options)
+    
     
     dr.get(url)
     soup = bs.BeautifulSoup(dr.page_source, 'html.parser')
     
     return soup
 
-def get_jurisprudences(name:str)->List[str]:
+async def get_jurisprudences(name:str)->List[str]:
     url=generate_url(name)
     page=get_page(url)
     raw=page.find_all(class_='DocumentSnippet')
-    jurisprudences=[jurisprudence.find(class_='BaseSnippetWrapper-body').text for jurisprudence in raw]
+    jurisprudences=[]
+    for j in raw:
+        item={
+            "title":j.find(class_='BaseSnippetWrapper-title').text,
+            "body":j.find(class_='BaseSnippetWrapper-body').text,
+        }
+        jurisprudences.append(item)
+        
     return jurisprudences
 
 if __name__ == "__main__":
-    print(get_jurisprudences("Roberto Naves"))
+    print(get_jurisprudences("Ana Carolina dos Santos Silva"))
