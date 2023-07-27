@@ -1,7 +1,7 @@
+from router.endpoints import api_router
 from fastapi import FastAPI
-from typing import Union
 from config import config
-from app.router.endpoints import api_router
+
 
 app = FastAPI(
     title=config.PROJECT_NAME, 
