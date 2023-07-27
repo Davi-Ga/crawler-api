@@ -1,8 +1,7 @@
+from crawler import api
+
 from fastapi import APIRouter
 
+api_router=APIRouter()
 
-api_router=APIRouter(prefix='/api',tags=['add'])
-
-@api_router.get('/test')
-def add():
-    return {'message':'add'}
+api_router.include_router(api.router,tags=['jurisprudences'])
