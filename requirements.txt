@@ -1,4 +1,4 @@
 uvicorn
 fastapi
 beautifulsoup4
-aiohttp
+selenium

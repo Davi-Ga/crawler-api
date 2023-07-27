@@ -27,3 +27,10 @@ services:
     depends_on:
       - api
     
+  selenium:
+    image: selenium/standalone-chrome:latest
+    hostname: chrome
+    privileged: true
+    shm_size: 2g
+
+
