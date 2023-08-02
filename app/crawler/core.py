@@ -36,6 +36,3 @@ async def get_jurisprudences(name:str)->List[str]:
         jurisprudences.append(item)
         
     return jurisprudences
-
-if __name__ == "__main__":
-    print(get_jurisprudences("Ana Carolina dos Santos Silva"))
