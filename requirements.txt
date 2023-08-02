@@ -1,4 +1,6 @@
 uvicorn
 fastapi
 beautifulsoup4
+starlette
 selenium
+webdriver-manager
