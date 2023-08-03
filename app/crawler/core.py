@@ -1,10 +1,6 @@
 import bs4 as bs
 from typing import List
-from fastapi import HTTPException,status
 from selenium import webdriver
-
-
-
 
 
 def generate_url(name:str)->str:
@@ -17,10 +13,9 @@ def get_page(url:str)->bs.BeautifulSoup:
     options.add_argument('--no-sandbox')
     dr=webdriver.Chrome(options=options)
     
-    
     dr.get(url)
     soup = bs.BeautifulSoup(dr.page_source, 'html.parser')
-    
+    dr.quit()
     return soup
 
 async def get_jurisprudences(name:str)->List[str]:
