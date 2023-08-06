@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  api:
+    image: crawlerapi
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    expose:
+      - 8686:8686
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - 8686:8686
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - api
