@@ -9,8 +9,8 @@ def generate_url(name:str)->str:
 
 def get_page(url:str)->bs.BeautifulSoup:
     options=webdriver.ChromeOptions()
-    options.add_argument('--headless=new')
     options.add_argument('--no-sandbox')
+    options.add_argument('--headless=new')
     dr=webdriver.Chrome(options=options)
     
     dr.get(url)
