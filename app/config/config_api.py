@@ -1,7 +1,6 @@
 import os
 
 from starlette.config import Config
-from starlette.datastructures import CommaSeparatedStrings
 
 config = Config(".env")
 
