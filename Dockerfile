@@ -5,12 +5,13 @@ WORKDIR /app
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 
+RUN apk update && apk add chromedriver && apk add google-chrome
+
 RUN apk add --no-cache --virtual build-dependencies libpq-dev build-base
 
-RUN apk update && apk add chromium chromium-chromedriver 
-
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt -vvv
+
+RUN pip install --no-cache-dir -r requirements.txt -vvv 
 
 COPY /app /app
 
