@@ -5,7 +5,7 @@ WORKDIR /app
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 
-RUN apk update && apk add chromedriver && apk add google-chrome
+RUN apk update && apk add chromium chromium-chromedriver
 
 RUN apk add --no-cache --virtual build-dependencies libpq-dev build-base
 
@@ -15,10 +15,10 @@ RUN pip install --no-cache-dir -r requirements.txt -vvv
 
 COPY /app /app
 
-COPY entrypoint.sh entrypoint.sh
+# COPY entrypoint.sh entrypoint.sh
 
-RUN chmod +x entrypoint.sh
+# RUN chmod +x entrypoint.sh
 
 EXPOSE 8686
 
-ENTRYPOINT ["sh", "entrypoint.sh"]
+# ENTRYPOINT ["sh", "entrypoint.sh"]
