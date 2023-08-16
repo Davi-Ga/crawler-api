@@ -2,20 +2,21 @@ import bs4 as bs
 from typing import List
 from selenium import webdriver
 
-
 def generate_url(name:str)->str:
     processed_name=name.replace(" ","+")
     return f"https://www.jusbrasil.com.br/jurisprudencia/busca?q={processed_name}"
 
 def get_page(url:str)->bs.BeautifulSoup:
-    options=webdriver.ChromeOptions()
-    options.add_argument('--no-sandbox')
-    options.add_argument('--headless=new')
-    dr=webdriver.Chrome(options=options)
+    webdriver_options = webdriver.ChromeOptions()
+    webdriver_options.add_argument('--headless=new')
+    webdriver_options.add_argument("--no-sandbox")
+    webdriver_options.add_argument('--disable-dev-shm-usage')
+    webdriver_options.binary_location = '/usr/bin/chromium-browser'
+    dr = webdriver.Chrome(options=webdriver_options)
     
     dr.get(url)
     soup = bs.BeautifulSoup(dr.page_source, 'html.parser')
-    dr.quit()
+    
     return soup
 
 async def get_jurisprudences(name:str)->List[str]:
