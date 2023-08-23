@@ -14,7 +14,7 @@ A API foi desenvolvida usando a linguagem de programação Python, juntamente co
 
 Esta API Crawler foi desenvolvida como parte do projeto PIBIC 2023 com o intuito de facilitar o acesso a informações jurídicas relevantes no site JusBrasil. Lembre-se de que a utilização da API deve estar em conformidade com as políticas do JusBrasil e as leis de proteção de dados em vigor.
 
-Caso tenha alguma dúvida ou encontre algum problema com a API, sinta-se à vontade para entrar em contato com a equipe de desenvolvimento pelo e-mail `contatodavigos@gmail.com`.
+Caso tenha alguma dúvida ou encontre algum problema com a API, sinta-se à vontade para entrar em contato com a equipe de desenvolvimento pelo e-mail `contato@daviga.dev.br`.
 
 Aproveite a API Crawler do JusBrasil Cases Search e boas pesquisas jurídicas!
 
