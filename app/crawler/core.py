@@ -22,12 +22,13 @@ def get_page(url:str)->bs.BeautifulSoup:
 async def get_jurisprudences(name:str)->List[str]:
     url=generate_url(name)
     page=get_page(url)
-    raw=page.find_all(class_='DocumentSnippet')
+    raw=page.find_all(class_='search-snippet-base_SearchSnippetBase__sMKry')
+    print(raw)
     jurisprudences=[]
     for j in raw:
         item={
-            "title":j.find(class_='BaseSnippetWrapper-title').text,
-            "body":j.find(class_='BaseSnippetWrapper-body').text,
+            "title":j.find(class_='search-snippet-base_SearchSnippetBase-titleLink__ms7sZ').text,
+            "body":j.find(class_='search-snippet-base_SearchSnippetBase-body__OY5oa').text,
         }
         jurisprudences.append(item)
         
