@@ -13,11 +13,9 @@ COPY requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt -vvv 
 
-COPY /app /app
+COPY . /app
 
-# COPY entrypoint.sh entrypoint.sh
-
-# RUN chmod +x entrypoint.sh
+RUN chmod +w .
 
 EXPOSE 8686
 
