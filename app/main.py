@@ -10,8 +10,3 @@ app = FastAPI(
     )
 
 app.include_router(api_router,prefix=config_api.API_PREFIX)
-
-@app.get("/")
-def root():
-    return {"message": "Hello World"}
-
