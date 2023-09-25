@@ -1,6 +1,6 @@
 # API Crawler - JusBrasil Cases Search
 
-![PIBIC 2023](https://your-university.edu.br/pibic_2023.png)
+![API CRAWLER- BANNER (1)](https://github.com/Davi-Ga/crawler-api/assets/86674827/4a33aa02-f688-4721-bd57-afc1eac7c4db)
 
 Bem-vindo à API Crawler para busca de casos no site JusBrasil com base no nome da pessoa! Esta API foi desenvolvida para o programa PIBIC 2023 com o objetivo de permitir a consulta de casos jurídicos associados a indivíduos no JusBrasil, facilitando o acesso a informações legais relevantes.
 
@@ -17,4 +17,3 @@ Esta API Crawler foi desenvolvida como parte do projeto PIBIC 2023 com o intuito
 Caso tenha alguma dúvida ou encontre algum problema com a API, sinta-se à vontade para entrar em contato com a equipe de desenvolvimento pelo e-mail `contato@daviga.dev.br`.
 
 Aproveite a API Crawler do JusBrasil Cases Search e boas pesquisas jurídicas!
-
