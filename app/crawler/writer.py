@@ -1,11 +1,7 @@
-import csv
 import json
 
-def csv_writer(json_string:str, name_file:str) -> csv.DictWriter:
-    data = json.loads(json_string)
-    headers = data[0].keys()
+def json_saver(data_response:str,name_file:str) -> None:
+    open(f'{format_name_file(name_file)}.json', 'w').write(json.dumps(data_response))
     
-    with open(f'data/{name_file}.csv', 'w', newline='') as csv_file:
-        writer = csv.DictWriter(csv_file, fieldnames=headers)
-        writer.writeheader()
-        writer.writerows(data)
+def format_name_file(name_file:str) -> str:
+    return name_file.replace(' ', '_').lower()
