@@ -1,52 +1,68 @@
 import bs4 as bs
 from typing import List
-from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
-from config import config_api
+import undetected_chromedriver as uc
+from time import sleep
+
+
 
 def generate_url(name:str)->str:
     processed_name=name.replace(" ","+")
     return f"https://www.jusbrasil.com.br/jurisprudencia/busca?q={processed_name}"
 
-def get_page(url:str)->bs.BeautifulSoup:
-    webdriver_options = webdriver.ChromeOptions()
-    
-    webdriver_options.add_argument('--headless=new')
-    webdriver_options.add_argument("--no-sandbox")
-    webdriver_options.add_argument('--disable-dev-shm-usage')
-    webdriver_options.binary_location = '/usr/bin/chromium-browser'
-    dr = webdriver.Chrome(options=webdriver_options)
+
+def get_page(url:str,driver:uc.Chrome)->bs.BeautifulSoup:
     
     try: 
-        login(driver=dr)
-        dr.get(url)
-        soup = bs.BeautifulSoup(dr.page_source, 'html.parser')
+        
+        driver.get(url)
+        soup = bs.BeautifulSoup(driver.page_source, 'html.parser')
     
         return soup
+    
     except (TimeoutException, NoSuchElementException) as e:
-        print(f"Erro: {e}")
+        raise(f"Erro: {e}")
     
-    finally:
-        dr.quit()
+ 
     
-def login(driver:webdriver.Chrome) -> None:
+def login(driver:uc.Chrome) -> None:
     driver.get('https://www.jusbrasil.com.br/login')
-    driver.find_element(By.ID,'FormFieldset-email').send_keys(config_api.EMAIL)
-    driver.find_element(By.ID,'FormFieldset-password').send_keys(config_api.PASSWORD)
-    driver.find_element(By.CLASS_NAME,'SubmitButton').submit()
+    driver.find_element(By.ID,'FormFieldset-email').send_keys('davigaldinoky@gmail.com')
+    driver.find_element(By.ID,'FormFieldset-password').send_keys('Pibic2023@@20')
+    driver.find_element(By.CLASS_NAME,'SubmitButton').click()
+    sleep(30)
+    
+    
 
 async def get_jurisprudences(name:str)->List[str]:
+    webdriver_options = uc.ChromeOptions()
+    # webdriver_options.add_argument('--headless=new')
+    dr = uc.Chrome(options=webdriver_options)
+    login(driver=dr)
     url=generate_url(name)
-    page=get_page(url)
-    raw=page.find_all(class_='search-snippet-base_SearchSnippetBase__sMKry')
+    initial_page=get_page(url,dr)
+    raw=initial_page.find_all(class_='search-snippet-base_SearchSnippetBase__sMKry')
     jurisprudences=[]
+    
     for j in raw:
-        item={
-            "title":j.find(class_='search-snippet-base_SearchSnippetBase-titleLink__ms7sZ').text,
-            "body":j.find(class_='search-snippet-base_SearchSnippetBase-body__OY5oa').text,
-        }
+        
+        jurisprudence_page=get_page(j.find(class_='search-snippet-base_SearchSnippetBase-titleLink__ms7sZ')['href'],dr)
+        
+        if jurisprudence_page.find(class_='tabs-link') is not None:
+            tab_page=get_page(str(jurisprudence_page.find_all(class_='tabs-link').pop(1)).split('href="').pop(1).split('"').pop(0),dr)
+            item={
+                "title":tab_page.find(class_='JurisprudencePage-title').text,
+                "body":tab_page.find(class_='JurisprudencePage-content').text,
+            }
+        else:
+            item={
+                "title":jurisprudence_page.find(class_='JurisprudencePage-title').text,
+                "body":jurisprudence_page.find(class_='JurisprudencePage-content').text,
+            }
+            
         jurisprudences.append(item)
+    
+    dr.quit()
         
     return jurisprudences
-
