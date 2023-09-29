@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 import undetected_chromedriver as uc
 from time import sleep
+from config import config_api
 
 
 
@@ -28,8 +29,8 @@ def get_page(url:str,driver:uc.Chrome)->bs.BeautifulSoup:
     
 def login(driver:uc.Chrome) -> None:
     driver.get('https://www.jusbrasil.com.br/login')
-    driver.find_element(By.ID,'FormFieldset-email').send_keys('davigaldinoky@gmail.com')
-    driver.find_element(By.ID,'FormFieldset-password').send_keys('Pibic2023@@20')
+    driver.find_element(By.ID,'FormFieldset-email').send_keys(config_api.EMAIL)
+    driver.find_element(By.ID,'FormFieldset-password').send_keys(config_api.PASSWORD)
     driver.find_element(By.CLASS_NAME,'SubmitButton').click()
     sleep(30)
     
