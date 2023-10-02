@@ -79,5 +79,11 @@ async def readJSON(file: dict, words_bag: UploadFile = File(...)) -> object:
             if re.search(pattern, file):
                 result.append(pattern)
 
+        if result:
+            return {"type": "Julgamento Concluido!!!" ,
+                    "response": result}
+        else:
+            return {"type": "Julgamento em Andamento!!!",
+                    "response": result}
+
     
-    return {"data": result}
