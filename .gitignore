@@ -3,4 +3,5 @@
 .env
 venv/
 app/data
+.vscode
 
