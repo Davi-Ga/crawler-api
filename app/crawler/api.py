@@ -16,15 +16,15 @@ async def jurisprudences(name:str):
     else:
         raise JurisprudenceNotFoundException(name=name)
     
-@router.get('/list-search/{name}')
-async def jurisprudences(names:list):
+# @router.get('/list-search/{name}')
+# async def jurisprudences(names:list):
     
-    if data := await get_jurisprudences(name):
-        json_saver(data_response=data,name_file=name)
+#     if data := await get_jurisprudences(name):
+#         json_saver(data_response=data,name_file=name)
         
-        return JSONResponse(data)
-    else:
-        raise JurisprudenceNotFoundException(name=name)
+#         return JSONResponse(data)
+#     else:
+#         raise JurisprudenceNotFoundException(name=name)
 
 
 

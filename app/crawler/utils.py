@@ -12,4 +12,8 @@ def generate_url(name:str)->str:
     return f"https://www.jusbrasil.com.br/jurisprudencia/busca?q={processed_name}"
 
 def get_names() -> List[str]:
-    return ['ABELARD RAMOS FERNANDES', 'ACACIO MANUEL DE CARVALHO', 'ACEVESMORENO FLORES PIEGAZ, ADA MAGALY MATIAS BRASILEIRO']
+    return ['ADILSON RAIMUNDO RIBEIRO',
+            'ADILSON RAIMUNDO XAVIER',
+            'ADIVANE TEREZINHA COSTA',
+            'ADRIANA BRAVIN',
+        ]
