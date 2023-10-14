@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 import undetected_chromedriver as uc
 from time import sleep
-from utils import json_saver,generate_url,get_names
+from .utils import json_saver,generate_url,get_names
 
 
 def get_page(url:str,driver:uc.Chrome)->bs.BeautifulSoup:
@@ -68,7 +68,7 @@ def access_page(name:str,driver:uc.Chrome,jurisprudences:List[str]) -> List[str]
 
 def get_jurisprudences(name_or_names: Union[str, List[str]])->List[str]:
     webdriver_options = uc.ChromeOptions()
-    # webdriver_options.add_argument('--headless=new')
+    webdriver_options.add_argument('--headless=new')
     dr = uc.Chrome(options=webdriver_options)
     content=[]
     
@@ -91,4 +91,4 @@ def get_jurisprudences(name_or_names: Union[str, List[str]])->List[str]:
     
     dr.quit()    
 
-get_jurisprudences(get_names())
+# get_jurisprudences(get_names())

@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from crawler.core import get_jurisprudences
+from .core import get_jurisprudences
 from .exceptions import JurisprudenceNotFoundException,InternalServerException
 from fastapi.responses import JSONResponse
 from .utils import json_saver
