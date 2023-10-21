@@ -23,4 +23,4 @@ def get_names(person_color:str,analised_row:str,wanted_row:str,delimiter:str) ->
     print(f'Listando nomes de pessoas que se identificam com a cor {person_color}')
     return nomes
 
-print(get_names(person_color='negra',analised_row='raca',wanted_row='Nome_do_Servidor',delimiter=';'))
+# print(get_names(person_color='negra',analised_row='raca',wanted_row='Nome_do_Servidor',delimiter=';'))

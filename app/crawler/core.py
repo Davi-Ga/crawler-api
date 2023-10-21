@@ -4,8 +4,8 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 import undetected_chromedriver as uc
 from time import sleep
-from utils import json_saver,generate_url,get_names
-from config import config_api
+from .utils import json_saver,generate_url,get_names
+from ..config import config_api
 
 def get_page(url:str,driver:uc.Chrome)->bs.BeautifulSoup:
 
@@ -112,5 +112,5 @@ def get_jurisprudences(name_or_names: Union[str, List[str]])->List[str]:
     dr.quit()
     print('Busca finalizada')
 
-get_jurisprudences(get_names(person_color='negra',analised_row='raca',wanted_row='Nome_do_Servidor',delimiter=';'))
+# get_jurisprudences(get_names(person_color='negra',analised_row='raca',wanted_row='Nome_do_Servidor',delimiter=';'))
 

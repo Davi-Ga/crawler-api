@@ -66,24 +66,27 @@ async def readJSON(file: dict, words_bag: UploadFile = File(...)) -> object:
     """
     
     word_bag = words_bag.file.readlines()
-    file = file[0]['body']
-    result = []
-  
-    for word in word_bag:
-        word = io.StringIO(word.decode())
-        for line in word:
-            line = line.split()
-            pattern = " ".join(line)
-            pattern = pattern.strip()
-            
-            if re.search(pattern, file):
-                result.append(pattern)
 
-        if result:
-            return {"type": "Julgamento Concluido!!!" ,
-                    "response": result}
-        else:
-            return {"type": "Julgamento em Andamento!!!",
-                    "response": result}
+    for i in range(len(file)):
+        file = file[i]['body']
+        print(file)
+
+    # result = []
+    # for word in word_bag:
+    #     word = io.StringIO(word.decode())
+    #     for line in word:
+    #         line = line.split()
+    #         pattern = " ".join(line)
+    #         pattern = pattern.strip()
+            
+    #         if re.search(pattern, file):
+    #             result.append(pattern)
+
+    #     if result:
+    #         return {"type": "Julgamento Concluido!!!" ,
+    #                 "response": result}
+    #     else:
+    #         return {"type": "Julgamento em Andamento!!!",
+    #                 "response": result}
 
     
