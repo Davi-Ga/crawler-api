@@ -27,13 +27,11 @@ async def reader(file: UploadFile = File(..., description="Enviar Json do tipo \
     if file_size and words_bag_file_size <= 0:
         return HTTPException(status_code=400, detail="File is Empty!!!")     
 
-
-    if file_content_type == "application/json":
-            data = json.load(file.file)
-            return await readJSON(data, words_bag)
+ 
+    data = json.load(file.file)
+    return await readJSON(data, words_bag)
     
-    elif file_content_type == "text/plain":
-            return readTXT(file, words_bag)
+
 
 
 
