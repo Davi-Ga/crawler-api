@@ -26,7 +26,7 @@ def readPDF(file) -> [str, int]:
     return clean_text, len(pdf_reader.pages)
 
 
-def readTXT(file, pattern):
+def readTXT(file: UploadFile, word_bag: UploadFile):
     """
     READ TXT: função que vai ler o arquivo TXT e procurar se a palavra está presente no arquivo desejado
 
@@ -39,18 +39,45 @@ def readTXT(file, pattern):
         Printar no console a palavra presente no documento
         
     """
+    word_bag = word_bag.file.readlines()
+    result = []
+    content = file.file.read()
 
-    with open(file, "r", encoding="utf-8") as f:
-        for _, line in enumerate(f, start=1):
-            line = line.lower()
-            if pattern in line:
-                print(f"A palavra {pattern} esta no Documento")
-                break
+    for word in word_bag:
+        word = io.StringIO(word.decode())
+        for line in word:
+            line = line.split()
+            pattern = " ".join(line)
+            pattern = pattern.strip()
 
-        f.close()
+            if re.search(pattern, content):
+                    result.append(pattern)
+                
+
+        if result:
+            return {"type": "Julgamento Concluido!!!" ,
+                    "response": result}
+        else:
+            return {"type": "Julgamento em Andamento!!!",
+                    "response": result}
+
+    # if re.search(r'\b' + re.escape(pattern=pattern) + r'\b', file):
+    #     return {"type": "Processo Concluido",
+    #             "content": f"{word_bag}"}
+
+    
+    # with open(file, "r", encoding="utf-8") as f:
+    #     for _, line in enumerate(f, start=1):
+    #         line = line.lower()
+    #         if pattern in line:
+    #             print(f"A palavra {pattern} esta no Documento")
+    #             return {"type": "Julgamento Concluido" }
+        
+    #     f.close()
+    # return {"type": "Julgamento em Andamento/ Não Deferido" }
 
 
-async def readJSON(file: dict, words_bag: UploadFile = File(...)) -> object:
+async def readJSON(file_json: dict, words_bag: UploadFile = File(...)) -> object:
     """
     DESCRIPTION:
         READ JSON: função que vai ler o arquivo JSON e procurar se a palavra está presente no arquivo desejado,
@@ -65,28 +92,23 @@ async def readJSON(file: dict, words_bag: UploadFile = File(...)) -> object:
         Printar no console a palavra presente no documento
     """
     
-    word_bag = words_bag.file.readlines()
+    result = []
+    word_bags = words_bag.file.readlines()
+    for i in range(len(file_json)):
+        file = file_json[i]['body']
+        
+        for word in word_bags:
+            word = word.decode('utf-8')
+            word=word.replace('\n', '')
 
-    for i in range(len(file)):
-        file = file[i]['body']
-        print(file)
+            if re.search(word, file):
+                result.append(word)
 
-    # result = []
-    # for word in word_bag:
-    #     word = io.StringIO(word.decode())
-    #     for line in word:
-    #         line = line.split()
-    #         pattern = " ".join(line)
-    #         pattern = pattern.strip()
-            
-    #         if re.search(pattern, file):
-    #             result.append(pattern)
-
-    #     if result:
-    #         return {"type": "Julgamento Concluido!!!" ,
-    #                 "response": result}
-    #     else:
-    #         return {"type": "Julgamento em Andamento!!!",
-    #                 "response": result}
+    if result:
+        return {"type": "Julgamento Concluido!!!" ,
+                "response": result}
+    else:
+        return {"type": "Julgamento em Andamento!!!",
+                "response": result}
 
     

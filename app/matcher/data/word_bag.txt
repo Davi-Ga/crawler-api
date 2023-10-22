@@ -1,17 +1,14 @@
 negar provimento
-
 negar-lhe provimento
 desprovido
 provimento ao recurso
 nego provimento ao recurso
 dou provimeto
-
 dou provimento ao recurso
 dou provimento ao agravo
 julgo procedente o recurso
 julgo procedente o agravo
 acolho a preliminar
-
 nego provimento
 nego provimento ao recurso
 nego provimento ao agravo
