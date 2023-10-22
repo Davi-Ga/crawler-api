@@ -3,6 +3,7 @@ import re
 from fastapi import File, UploadFile
 import io
 
+
 def readPDF(file) -> [str, int]:
     """
     READ PDF: função para ler arquivos pdf e converter para texto(string)
