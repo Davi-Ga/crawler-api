@@ -1,6 +1,5 @@
 from PyPDF2 import PdfReader
-import re, json, unicodedata
-from typing import Annotated
+import re
 from fastapi import File, UploadFile
 import io
 
