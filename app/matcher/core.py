@@ -96,13 +96,15 @@ async def readJSON(file_json: dict, words_bag: UploadFile = File(...)) -> object
     word_bags = words_bag.file.readlines()
     for i in range(len(file_json)):
         file = file_json[i]['body']
+        file = file.lower()
 
         for word in word_bags:
             word = word.decode('utf-8')
-            word=word.replace('\n', '')
+            word=word.replace('\r\n', '')
 
             if re.search(word, file):
                 result.append(word)
+
 
     if result:
         return {"type": "Julgamento Concluido!!!" ,

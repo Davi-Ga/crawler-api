@@ -2,7 +2,6 @@ negar provimento
 negar-lhe provimento
 desprovido
 provimento ao recurso
-nego provimento ao recurso
 dou provimeto
 dou provimento ao recurso
 dou provimento ao agravo
@@ -16,3 +15,4 @@ julgo improcedente o recurso
 julgo improcedente o agravo
 rejeito a preliminar
 provimento negado
+nega provimento
