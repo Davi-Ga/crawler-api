@@ -1,5 +1,5 @@
-from crawler import api as crawler_api
-from matcher import api as matcher_api
+from ..crawler import api as crawler_api
+from ..matcher import api as matcher_api
 
 from fastapi import APIRouter
 
