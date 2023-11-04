@@ -5,6 +5,8 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 import undetected_chromedriver as uc
 from time import sleep
 
+from utils import json_saver,generate_url_jurisprudence,get_names,generate_url_procedural_parts
+
 from .utils import json_saver,generate_url,get_names
 from ..config import config_api
 
@@ -29,15 +31,15 @@ def login(driver:uc.Chrome) -> None:
     sleep(30)
 
 
-def access_page(name:str,driver:uc.Chrome,jurisprudences:List[str]) -> List[str]:
-    pagination_items=get_page(generate_url(name),driver).find_all(class_='pagination_pagination-pages-item__RTw7L')
+def access_page_jurisprudences(name:str,driver:uc.Chrome,jurisprudences:List[str]) -> List[str]:
+    pagination_items=get_page(generate_url_jurisprudence(name),driver).find_all(class_='pagination_pagination-pages-item__RTw7L')
     if pagination_items is not None:
         number_pagination_items=len(pagination_items)
         print(f'Número de páginas {number_pagination_items}')
         pages=1
         while pages <= number_pagination_items:
             print(f'Iniciando busca na página {pages}')
-            url=generate_url(name,page=pages)
+            url=generate_url_jurisprudence(name,page=pages)
             initial_page=get_page(url,driver)
             raw=initial_page.find_all(class_='search-snippet-base_SearchSnippetBase__sMKry')
 
@@ -92,6 +94,82 @@ def access_page(name:str,driver:uc.Chrome,jurisprudences:List[str]) -> List[str]
 
     return jurisprudences
 
+def access_page_procedural_parts(name:str,driver:uc.Chrome,parts:List[str]) -> List[str]:
+    pagination_items=get_page(generate_url_procedural_parts(name),driver).find_all(class_='pagination-item-link')
+    if pagination_items is not None:
+        number_pagination_items=len(pagination_items)
+        print(f'Número de páginas {number_pagination_items}')
+        pages=1
+        while pages <= 1:
+            print(f'Iniciando busca na página {pages}')
+            url=generate_url_procedural_parts(name,page=pages)
+            initial_page=get_page(url,driver)
+            raw=initial_page.find_all(class_='DocumentSnippet')
+
+            for j in raw:
+                part_title=j.find(class_='BaseSnippetWrapper-title-anchor')['href']
+                part_page=get_page(part_title,driver)
+            
+                if part_page.find(class_='error-page_main__kx7NZ') is None:
+                    
+                    if part_page.find(class_='RelatedDocuments-list') is not None:
+                        petition={
+                            "title_petition":part_page.find(class_='document-title').text,
+                            "body_petition":part_page.find(class_='MotionPage-content').text,
+                        }
+                        related_documents=part_page.find(class_='RelatedDocuments-list').find_all(class_='RelatedDocuments-link')
+                        for related_document in related_documents:
+                            decision=related_document.find(class_='RelatedDocuments-group-type')
+                            if decision.text == 'Decisão':
+                                decision_page=get_page(related_document['href'],driver)
+                                
+                                if decision_page.find(class_='tabs-link') is not None:
+                                    tab_page=get_page(str(decision_page.find_all(class_='tabs-link').pop(1)).split('href="').pop(1).split('"').pop(0),driver)
+                                       
+                                    if tab_page.find(class_='JurisprudencePage-title') is not None:
+                                        item={
+                                            "title":tab_page.find(class_='JurisprudencePage-title').text,
+                                            "body":tab_page.find(class_='JurisprudencePage-content').text,
+                                        }
+                                        print(f'Adicionado com sucesso {item["title"]}')
+                                    elif tab_page.find(class_='DocumentPage-title') is not None:
+                                        item={
+                                            "body":tab_page.find(class_='DocumentPage-content').text,
+                                        }
+                                        print(f'Adicionado com sucesso item que não possui titulo')
+                        
+                                    else:
+                                        print(f'Provavelmente atingimos o limite de busca')
+                                        break
+                        
+                                elif decision_page.find(class_='JurisprudencePage-title') is not None:
+                                    item={
+                                        "title":decision_page.find(class_='document-title').text,
+                                        "body":decision_page.find(class_='JurisprudencePage-content').text,
+                                    }
+                                    print(f'Adicionado com sucesso {item["title"]}')
+                                else:
+                                    item={
+                                        "body":decision_page.find(class_='DocumentPage-content').text,
+                                    }
+                                    print(f'Adicionado com sucesso item que não possui titulo')
+                    else:
+                        item={
+                            'title': 'Petição Inicial não possui decisão',
+                        }            
+                else:
+                    print(f'Página não encontrada {part_title}, pulando para a próxima parte processual')
+                    continue
+                
+                sleep(3)
+                parts.extend([item, petition])
+            pages+=1
+        print (f'Busca finalizada no nome de {name}')
+    else:
+        pass
+
+    return parts
+
 
 def get_jurisprudences(name_or_names: Union[str, List[str]])->List[str]:
     webdriver_options = uc.ChromeOptions()
@@ -100,20 +178,19 @@ def get_jurisprudences(name_or_names: Union[str, List[str]])->List[str]:
     content=[]
     
     if isinstance(name_or_names, list):
-        login(driver=dr)
    
         for name in name_or_names:
-            jurisprudences=[]
+            parts=[]
             print(f'Iniciando busca no nome de {name} na lista de nomes')
-            content=access_page(name,dr,jurisprudences)
+            content=access_page_procedural_parts(name,dr,parts)
             print(f'Adicionando ao arquivo {name}')
             json_saver(content,name)
             
     if isinstance(name_or_names, str):
-        login(driver=dr)
+        name=name_or_names
         print(f'Iniciando busca no nome de {name}')
-        jurisprudences=[]
-        content=access_page(name,dr,jurisprudences)
+        parts=[]
+        content=access_page_procedural_parts(name,dr,parts)
         print(f'Adicionando ao arquivo {name}')
         json_saver(content,name)
             
@@ -121,6 +198,6 @@ def get_jurisprudences(name_or_names: Union[str, List[str]])->List[str]:
     dr.quit()    
     print('Busca finalizada')
 
-get_jurisprudences(get_names(person_color='parda',analised_row='raca',wanted_row='Nome_do_Servidor',delimiter=';'))
+get_jurisprudences('Injúria racial')
 
 
