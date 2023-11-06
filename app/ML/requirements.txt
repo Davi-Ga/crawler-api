@@ -1,0 +1,30 @@
+
+#  FAST
+fastapi
+
+uvicorn
+beautifulsoup4
+pydantic
+pydantic_core
+PyPDF2
+python-multipart
+selenium
+python-dotenv
+requests
+typing_extensions
+webdriver-manager
+undetected-chromedriver
+
+
+## Modelo
+jupyter
+scikit-learn
+pandas
+numpy
+nltk
+
+#Graficos
+matplotlib
+seaborn
+Wordcloud
+plotly
