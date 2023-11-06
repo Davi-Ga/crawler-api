@@ -61,20 +61,6 @@ def readTXT(file: UploadFile, word_bag: UploadFile):
             return {"type": "Julgamento em Andamento!!!",
                     "response": result}
 
-    # if re.search(r'\b' + re.escape(pattern=pattern) + r'\b', file):
-    #     return {"type": "Processo Concluido",
-    #             "content": f"{word_bag}"}
-
-    
-    # with open(file, "r", encoding="utf-8") as f:
-    #     for _, line in enumerate(f, start=1):
-    #         line = line.lower()
-    #         if pattern in line:
-    #             print(f"A palavra {pattern} esta no Documento")
-    #             return {"type": "Julgamento Concluido" }
-        
-    #     f.close()
-    # return {"type": "Julgamento em Andamento/ Não Deferido" }
 
 
 async def readJSON(file_json: dict, words_bag: UploadFile = File(...)) -> object:
