@@ -12,7 +12,7 @@ def remove_special_characters(text):
 
 
 # Specify the directory path
-directory_path = "./data/brancas"
+directory_path = "./data/"
 
 # Get a list of all files in the directory
 files = os.listdir(directory_path)
