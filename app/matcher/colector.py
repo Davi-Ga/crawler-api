@@ -14,14 +14,12 @@ def remove_special_characters(text):
 # Specify the directory path
 directory_path = "./data/"
 
-# Get a list of all files in the directory
+# Fazer um lista de todos os documentos da pasta
 files = os.listdir(directory_path)
 data = []
 header = ["Name", "Original_Text", "Label"]
-# Print the names of the files
+# Pegar um documento por vezes
 for file in files:
-#   print(file)  
-    
     name = os.path.splitext(file)[0]
     name = remove_special_characters(name)
 
@@ -33,12 +31,9 @@ for file in files:
             original_text = json.load(f)
             try:
                 original_text = original_text[1]["body_petition"]
-                # print(original_text)
                 data.append([name, original_text, ''])
             except: 
                 data.append([name, "None", ''])
-            # print(data)
-
 
 
 collection = pd.DataFrame(data, columns=header)
