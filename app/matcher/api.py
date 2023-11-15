@@ -1,14 +1,15 @@
 from fastapi import APIRouter, File, UploadFile, HTTPException
 import json
 from typing import Annotated
-from .core import readJSON, readPDF, readTXT
+from .core import readJSON, readPDF, readTXT, readCsv
+import pandas as pd
 
 router=APIRouter()
 
 @router.post('/search_file/')
-async def reader(file: UploadFile = File(..., description="Enviar Json do tipo \n{\n['title': 'etc...',\n 'body': '...']}",), words_bag: UploadFile = File(..., description="Enviar um arquivo TXT com as palavras a serem analisadas Ex: provimento\\n negar provimento (uma palavra em cada linha)")):
 
-
+async def reader_Json(file: UploadFile = File(..., description="Enviar Json do tipo \n{\n['title': 'etc...',\n 'body': '...']}",), words_bag: UploadFile = File(..., description="Enviar um arquivo TXT com as palavras a serem analisadas Ex: provimento\\n negar provimento (uma palavra em cada linha)")):
+    json_data = json.load(file.file)
     file_content_type = file.content_type
     file.file.seek(0,2)
     file_size = file.file.tell()
@@ -17,11 +18,11 @@ async def reader(file: UploadFile = File(..., description="Enviar Json do tipo \
 
     words_bag_type = words_bag.content_type
     words_bag.file.seek(0,2)
-    words_bag_file_size  = words_bag.file.tell()
+    words_bag_file_size = words_bag.file.tell()
     words_bag.file.seek(0)
     
     
-    if file_content_type  not in ["application/json", "text/plain"] and words_bag_type not in ["text/plain"]:
+    if file_content_type not in ["application/json"] and words_bag_type not in ["text/plain"]:
         return HTTPException(status_code=400, detail="Invalid Type in !!!")
     
     if file_size and words_bag_file_size <= 0:
@@ -35,3 +36,12 @@ async def reader(file: UploadFile = File(..., description="Enviar Json do tipo \
 
 
 
+
+
+@router.post("/classificado")
+async def reader_Csv(file: UploadFile = File(..., description="Enviar o CSV montado pelo collector para classificar as petições",), words_bag: UploadFile = File(..., description="Enviar um arquivo TXT com as palavras a serem analisadas Ex: provimento\\n negar provimento (uma palavra em cada linha)")):
+    csv_file = pd.read_csv(file.file)
+
+    return await readCsv(csv_file, words_bag)
+
+ 

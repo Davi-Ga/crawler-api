@@ -1,6 +1,5 @@
 from PyPDF2 import PdfReader
-import re, json, unicodedata
-from typing import Annotated
+import re
 from fastapi import File, UploadFile
 import io
 
@@ -61,23 +60,9 @@ def readTXT(file: UploadFile, word_bag: UploadFile):
             return {"type": "Julgamento em Andamento!!!",
                     "response": result}
 
-    # if re.search(r'\b' + re.escape(pattern=pattern) + r'\b', file):
-    #     return {"type": "Processo Concluido",
-    #             "content": f"{word_bag}"}
-
-    
-    # with open(file, "r", encoding="utf-8") as f:
-    #     for _, line in enumerate(f, start=1):
-    #         line = line.lower()
-    #         if pattern in line:
-    #             print(f"A palavra {pattern} esta no Documento")
-    #             return {"type": "Julgamento Concluido" }
-        
-    #     f.close()
-    # return {"type": "Julgamento em Andamento/ Não Deferido" }
 
 
-async def readJSON(file: dict, words_bag: UploadFile = File(...)) -> object:
+async def readJSON(file_json: dict, words_bag: UploadFile = File(...)) -> object:
     """
     DESCRIPTION:
         READ JSON: função que vai ler o arquivo JSON e procurar se a palavra está presente no arquivo desejado,
@@ -92,26 +77,52 @@ async def readJSON(file: dict, words_bag: UploadFile = File(...)) -> object:
         Printar no console a palavra presente no documento
     """
     
-    word_bag = words_bag.file.readlines()
-    file = file[2]['body']
-    print(file)
     result = []
-  
-    for word in word_bag:
-        word = io.StringIO(word.decode())
-        for line in word:
-            line = line.split()
-            pattern = " ".join(line)
-            pattern = pattern.strip()
+    word_bags = words_bag.file.readlines()
+    for i in range(len(file_json)):
+        file = file_json[i]['body']
+        file = file.lower()
+
+        for word in word_bags:
+            word = word.decode('utf-8')
+            word=word.replace('\r\n', '')
+
+            if re.search(word, file):
+                result.append(word)
+
+
+    if result:
+        return {"type": "Julgamento Concluido!!!" ,
+                "response": result}
+    else:
+        return {"type": "Julgamento em Andamento!!!",
+                "response": result}
+
+
+
+async def readCsv(file: UploadFile, words_bag: UploadFile = File(...)):
+    data = file["Original_Text"].str.lower()
+
+    result = []
+    word_bags = words_bag.file.readlines()
+
+    for i in range(len(data)):
+        for word in word_bags:
+            word = word.decode('utf-8')
+            word=word.replace('\r\n', '')
+
+            if isinstance(data[i], float):
+                continue
+
+            elif re.search(word, data[i]):
+                result.append(word)
+            print(result)
             
-            if re.search(pattern, file):
-                result.append(pattern)
 
-        if result:
-            return {"type": "Julgamento Concluido!!!" ,
-                    "response": result}
-        else:
-           return {"type": "Julgamento em Andamento!!!",
-                    "response": result}
-
-    
+    if result:
+        return {"type": "Julgamento Concluido!!!" ,
+                "response": result}
+    else:
+        return {"type": "Julgamento em Andamento!!!",
+                "response": result}
+   
