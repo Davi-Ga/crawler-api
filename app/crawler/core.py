@@ -95,7 +95,7 @@ def access_page(name:str,driver:uc.Chrome,jurisprudences:List[str]) -> List[str]
 
 def get_jurisprudences(name_or_names: Union[str, List[str]])->List[str]:
     webdriver_options = uc.ChromeOptions()
-    # webdriver_options.add_argument('--headless=new')
+    webdriver_options.add_argument('--headless=new')
     dr = uc.Chrome(options=webdriver_options)
     content=[]
     
@@ -122,5 +122,4 @@ def get_jurisprudences(name_or_names: Union[str, List[str]])->List[str]:
     print('Busca finalizada')
 
 # get_jurisprudences(get_names(person_color='parda',analised_row='raca',wanted_row='Nome_do_Servidor',delimiter=';'))
-
 

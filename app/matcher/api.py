@@ -7,6 +7,7 @@ import pandas as pd
 router=APIRouter()
 
 @router.post('/search_file/')
+
 async def reader_Json(file: UploadFile = File(..., description="Enviar Json do tipo \n{\n['title': 'etc...',\n 'body': '...']}",), words_bag: UploadFile = File(..., description="Enviar um arquivo TXT com as palavras a serem analisadas Ex: provimento\\n negar provimento (uma palavra em cada linha)")):
     json_data = json.load(file.file)
     file_content_type = file.content_type
@@ -26,8 +27,14 @@ async def reader_Json(file: UploadFile = File(..., description="Enviar Json do t
     
     if file_size and words_bag_file_size <= 0:
         return HTTPException(status_code=400, detail="File is Empty!!!")     
+
+ 
+    data = json.load(file.file)
+    return await readJSON(data, words_bag)
     
-    return await readJSON(json_data, words_bag)
+
+
+
 
 
 

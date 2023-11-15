@@ -116,10 +116,8 @@ async def readCsv(file: UploadFile, words_bag: UploadFile = File(...)):
 
             elif re.search(word, data[i]):
                 result.append(word)
-
-
             print(result)
-
+            
 
     if result:
         return {"type": "Julgamento Concluido!!!" ,
