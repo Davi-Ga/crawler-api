@@ -121,6 +121,6 @@ def get_jurisprudences(name_or_names: Union[str, List[str]])->List[str]:
     dr.quit()    
     print('Busca finalizada')
 
-get_jurisprudences(get_names(person_color='parda',analised_row='raca',wanted_row='Nome_do_Servidor',delimiter=';'))
+# get_jurisprudences(get_names(person_color='parda',analised_row='raca',wanted_row='Nome_do_Servidor',delimiter=';'))
 
 

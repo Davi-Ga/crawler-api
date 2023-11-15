@@ -2,6 +2,7 @@
 */__pycache__
 .env
 venv/
-app/data
+app/data/
+app/matcher/data
 .vscode
 

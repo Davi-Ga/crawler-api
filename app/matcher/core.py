@@ -3,7 +3,6 @@ import re
 from fastapi import File, UploadFile
 import io
 
-
 def readPDF(file) -> [str, int]:
     """
     READ PDF: função para ler arquivos pdf e converter para texto(string)
@@ -98,3 +97,34 @@ async def readJSON(file_json: dict, words_bag: UploadFile = File(...)) -> object
     else:
         return {"type": "Julgamento em Andamento!!!",
                 "response": result}
+
+
+
+async def readCsv(file: UploadFile, words_bag: UploadFile = File(...)):
+    data = file["Original_Text"].str.lower()
+
+    result = []
+    word_bags = words_bag.file.readlines()
+
+    for i in range(len(data)):
+        for word in word_bags:
+            word = word.decode('utf-8')
+            word=word.replace('\r\n', '')
+
+            if isinstance(data[i], float):
+                continue
+
+            elif re.search(word, data[i]):
+                result.append(word)
+
+
+            print(result)
+
+
+    if result:
+        return {"type": "Julgamento Concluido!!!" ,
+                "response": result}
+    else:
+        return {"type": "Julgamento em Andamento!!!",
+                "response": result}
+   
