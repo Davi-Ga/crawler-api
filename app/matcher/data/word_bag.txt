@@ -18,5 +18,4 @@ rejeito a preliminar
 provimento negado
 nega provimento
 provimento
-nego provimento 
-
+nego provimento
