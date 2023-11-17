@@ -5,7 +5,14 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 import undetected_chromedriver as uc
 from time import sleep
 
+
 from utils import json_saver,generate_url,get_names
+
+from starlette.config import Config
+
+config = Config(".env")
+EMAIL = config("EMAIL", cast=str,default="email")
+PASSWORD = config("PASSWORD", cast=str,default="password")
 
 
 def get_page(url:str,driver:uc.Chrome)->bs.BeautifulSoup:
@@ -23,8 +30,8 @@ def get_page(url:str,driver:uc.Chrome)->bs.BeautifulSoup:
     
 def login(driver:uc.Chrome) -> None:
     driver.get('https://www.jusbrasil.com.br/login')
-    driver.find_element(By.ID,'FormFieldset-email').send_keys("davigaldinoky@gmail.com")
-    driver.find_element(By.ID,'FormFieldset-password').send_keys("Pibic2023@@12")
+    driver.find_element(By.ID,'FormFieldset-email').send_keys(EMAIL)
+    driver.find_element(By.ID,'FormFieldset-password').send_keys(PASSWORD)
     driver.find_element(By.CLASS_NAME,'SubmitButton').click()
     sleep(30)
 
