@@ -2,7 +2,7 @@ from fastapi import APIRouter, File, UploadFile, HTTPException
 import json
 from typing import Annotated
 from .core import readJSON, readPDF, readTXT, readCsv
-import pandas as pd
+
 
 router=APIRouter()
 
@@ -40,7 +40,7 @@ async def reader_Json(file: UploadFile = File(..., description="Enviar Json do t
 
 @router.post("/classificado")
 async def reader_Csv(file: UploadFile = File(..., description="Enviar o CSV montado pelo collector para classificar as petições",), words_bag: UploadFile = File(..., description="Enviar um arquivo TXT com as palavras a serem analisadas Ex: provimento\\n negar provimento (uma palavra em cada linha)")):
-    csv_file = pd.read_csv(file.file)
+    csv_file = file
 
     return await readCsv(csv_file, words_bag)
 

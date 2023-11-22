@@ -26,5 +26,4 @@ nltk
 #Graficos
 matplotlib
 seaborn
-Wordcloud
 plotly

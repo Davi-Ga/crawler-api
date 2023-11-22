@@ -12,7 +12,8 @@ def remove_special_characters(text):
 
 
 # Specify the directory path
-directory_path = "./data/"
+grupo = "brancas"
+directory_path = f"./data/{grupo}"
 
 # Fazer um lista de todos os documentos da pasta
 files = os.listdir(directory_path)
@@ -23,19 +24,20 @@ for file in files:
     name = os.path.splitext(file)[0]
     name = remove_special_characters(name)
 
-    path_file = f'./data/brancas/{file}'
+    path_file = f'{directory_path}/{file}'
     if(os.path.getsize(path_file) <= 2):
         continue
     else:
         with open(path_file, 'r') as f:
+            print(f"{path_file}")
             original_text = json.load(f)
             try:
                 original_text = original_text[1]["body_petition"]
-                data.append([name, original_text, ''])
+                original_text = remove_special_characters(original_text)
+                data.append([f"{name}", f"{original_text}", f"None"])
             except: 
-                data.append([name, "None", ''])
-
+                data.append([f"name", "None", ""])    
 
 collection = pd.DataFrame(data, columns=header)
-collection.to_csv("Coleta.csv", index=False) 
+collection.to_csv(f"Coleta_{grupo.title()}.csv", index=False) 
 

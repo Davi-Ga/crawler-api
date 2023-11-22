@@ -1,7 +1,10 @@
+from fastapi import File, UploadFile, HTTPException
+from fastapi.responses import FileResponse
+
 from PyPDF2 import PdfReader
 import re
-from fastapi import File, UploadFile
-import io
+import io, os 
+import pandas as pd
 
 def readPDF(file) -> [str, int]:
     """
@@ -100,29 +103,50 @@ async def readJSON(file_json: dict, words_bag: UploadFile = File(...)) -> object
 
 
 
-async def readCsv(file: UploadFile, words_bag: UploadFile = File(...)):
-    data = file["Original_Text"].str.lower()
+async def readCsv(file: UploadFile = File(...), words_bag: UploadFile = File(...)):
+    try:
+        df = pd.read_csv(file.file)
+        data = df["Original_Text"].str.lower()
 
-    result = []
-    word_bags = words_bag.file.readlines()
+        result = []
+        label = []
+        word_bags = words_bag.file.readlines()
 
-    for i in range(len(data)):
-        for word in word_bags:
-            word = word.decode('utf-8')
-            word=word.replace('\r\n', '')
+        for i in range(len(df)):
+            aux = []
+            for word in word_bags:
+                word = word.decode('utf-8')
+                word=word.replace('\r\n', '')
 
-            if isinstance(data[i], float):
-                continue
+                if isinstance(data[i], float):
+                    continue
 
-            elif re.search(word, data[i]):
-                result.append(word)
-            print(result)
-            
+                elif re.search(word, data[i]):
+                    result.append(word)
+                    aux.append("Fechado")
+                else:
+                    aux.append("Aberto")
+                print(result)
 
-    if result:
-        return {"type": "Julgamento Concluido!!!" ,
-                "response": result}
-    else:
-        return {"type": "Julgamento em Andamento!!!",
-                "response": result}
-   
+            if "Fechado" in aux:
+                label.append("Fechado")
+            else:
+                label.append("Aberto")
+
+        print(df)
+        df["Label"] = label
+                
+        # Save the updated DataFrame to a new CSV file
+        updated_file_path = 'updated_file.csv'
+        df.to_csv(updated_file_path, index=False)
+
+        if result:
+            return FileResponse(updated_file_path, media_type="text/csv", filename="updated_file.csv")
+
+        else:
+            return {"type": "Julgamento em Andamento!!!",
+                    "response": result}
+ 
+ 
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
