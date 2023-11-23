@@ -39,5 +39,5 @@ for file in files:
                 data.append([f"name", "None", ""])    
 
 collection = pd.DataFrame(data, columns=header)
-collection.to_csv(f"Coleta_{grupo.title()}.csv", index=False) 
+collection.to_csv(f"./data/Coleta_{grupo.title()}.csv", index=False) 
 
