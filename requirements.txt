@@ -1,4 +1,6 @@
 fastapi
+matplotlib
+nltk
 numpy
 pandas
 uvicorn
@@ -7,9 +9,11 @@ pydantic
 pydantic_core
 PyPDF2
 python-multipart
+scikit-lern
 selenium
 python-dotenv
 requests
+tensor-flow
 typing_extensions
 webdriver-manager
 undetected-chromedriver

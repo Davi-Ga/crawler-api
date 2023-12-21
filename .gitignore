@@ -7,3 +7,4 @@ app/matcher/data
 app/matcher/Coleta.csv
 .vscode
 ./*.csv
+.venv/
