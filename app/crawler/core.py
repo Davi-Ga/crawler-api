@@ -174,8 +174,8 @@ def access_page_procedural_parts(name:str,driver:uc.Chrome,parts:List[str]) -> L
                                 item={
                                     'title': 'Petição Inicial não possui decisão',
                                 }
-                                break  
                     else:
+                        print('to aqui viu')
                         item={
                             'title': 'Petição Inicial não possui decisão',
                         }       
