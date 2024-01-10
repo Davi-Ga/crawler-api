@@ -1,4 +1,4 @@
-import os, re
+import os, re, sys
 import pandas as pd
 import json
 
@@ -12,7 +12,7 @@ def remove_special_characters(text):
 
 
 # Specify the directory path
-grupo = "brancas"
+grupo = sys.argv[1]
 directory_path = f"./data/{grupo}"
 
 # Fazer um lista de todos os documentos da pasta
