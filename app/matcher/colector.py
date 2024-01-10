@@ -5,7 +5,7 @@ import json
 
 def remove_special_characters(text):
     # Substituir caracteres especiais por espaços em branco
-    cleaned_text = re.sub(r'[^a-zA-Z0-9\s]', ' ', text)
+    cleaned_text = re.sub(r'[^a-zA-Z0-9á-úç\.\s]', ' ', text)
     cleaned_text = cleaned_text.title()
     return cleaned_text
 
@@ -31,12 +31,14 @@ for file in files:
         with open(path_file, 'r') as f:
             print(f"{path_file}")
             original_text = json.load(f)
-            try:
-                original_text = original_text[1]["body_petition"]
-                original_text = remove_special_characters(original_text)
-                data.append([f"{name}", f"{original_text}", f"None"])
-            except: 
-                data.append([f"name", "None", ""])    
+
+            for petition in original_text:
+                try:    
+                    text = petition["body_petition"]
+                        # original_text = remove_special_characters(original_text)
+                    data.append([f"{name}", f"{text}", f"None"])
+                except: 
+                    pass    
 
 collection = pd.DataFrame(data, columns=header)
 collection.to_csv(f"./data/Coleta_{grupo.title()}.csv", index=False) 
