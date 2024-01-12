@@ -1,7 +1,7 @@
 from fastapi import APIRouter, File, UploadFile, HTTPException
 import json
 from typing import Annotated
-from .core import readJSON, readPDF, readTXT, readCsv
+from .core import collector, readJSON, readPDF, readTXT, readCsv
 
 
 router=APIRouter()
@@ -40,6 +40,8 @@ async def reader_Csv(file: UploadFile = File(..., description="Enviar o CSV mont
 
 
 @router.post("/colllector")
-async def collector(folder: UploadFile = File(..., description="Coleção de Arquivos a ser classificados")):
-    return 
+async def matcher_collector(folder: list[UploadFile,] = [File(..., description="Enviar o CSV para adicionar as novas informações" )], group: str = "", csv: UploadFile = File(...)):
+    print(csv)
+    print(group)
+    return await collector(file=folder)
  
