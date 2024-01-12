@@ -7,7 +7,6 @@ from .core import readJSON, readPDF, readTXT, readCsv
 router=APIRouter()
 
 @router.post('/search_file/')
-
 async def reader_Json(file: UploadFile = File(..., description="Enviar Json do tipo \n{\n['title': 'etc...',\n 'body': '...']}",), words_bag: UploadFile = File(..., description="Enviar um arquivo TXT com as palavras a serem analisadas Ex: provimento\\n negar provimento (uma palavra em cada linha)")):
     json_data = json.load(file.file)
     file_content_type = file.content_type
@@ -31,17 +30,16 @@ async def reader_Json(file: UploadFile = File(..., description="Enviar Json do t
  
     data = json.load(file.file)
     return await readJSON(data, words_bag)
-    
 
 
-
-
-
-
-@router.post("/classificado")
+@router.post("/classificador")
 async def reader_Csv(file: UploadFile = File(..., description="Enviar o CSV montado pelo collector para classificar as petições",), words_bag: UploadFile = File(..., description="Enviar um arquivo TXT com as palavras a serem analisadas Ex: provimento\\n negar provimento (uma palavra em cada linha)")):
     csv_file = file
 
     return await readCsv(csv_file, words_bag)
 
+
+@router.post("/colllector")
+async def collector(folder: UploadFile = File(..., description="Coleção de Arquivos a ser classificados")):
+    return 
  

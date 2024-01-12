@@ -19,6 +19,7 @@ directory_path = f"./data/{grupo}"
 files = os.listdir(directory_path)
 data = []
 header = ["Name", "Original_Text", "Label"]
+
 # Pegar um documento por vezes
 for file in files:
     name = os.path.splitext(file)[0]
@@ -35,7 +36,6 @@ for file in files:
             for petition in original_text:
                 try:    
                     text = petition["body_petition"]
-                        # original_text = remove_special_characters(original_text)
                     data.append([f"{name}", f"{text}", f"None"])
                 except: 
                     pass    
