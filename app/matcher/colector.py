@@ -37,7 +37,7 @@ for file in files:
                 try:    
                     text = petition["body_petition"]
                     data.append([f"{name}", f"{text}", f"None"])
-                except: 
+                except:
                     pass   
 
 collection = pd.DataFrame(data, columns=header)
