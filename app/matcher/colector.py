@@ -38,7 +38,7 @@ for file in files:
                     text = petition["body_petition"]
                     data.append([f"{name}", f"{text}", f"None"])
                 except: 
-                    pass    
+                    pass   
 
 collection = pd.DataFrame(data, columns=header)
 collection.to_csv(f"./data/Coleta_{grupo.title()}.csv", index=False) 
