@@ -138,7 +138,7 @@ async def readCsv(file: UploadFile = File(...), words_bag: UploadFile = File(...
             else:
                 label.append("Aberto")
 
-        print(df)
+        # print(df)
         df["Label"] = label
                 
         # Save the updated DataFrame to a new CSV file

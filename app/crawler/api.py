@@ -1,8 +1,8 @@
 from fastapi import APIRouter
-from ..crawler.core import get_jurisprudences
-from .exceptions import JurisprudenceNotFoundException,InternalServerException
+from crawler.core import get_jurisprudences
+from crawler.exceptions import JurisprudenceNotFoundException,InternalServerException
 from fastapi.responses import JSONResponse
-from ..crawler.utils import json_saver
+from crawler.utils import json_saver
 
 router=APIRouter()
 

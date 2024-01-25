@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-from .config import config_api
+from config import config_api
 
-from .router.endpoints import api_router
+from router.endpoints import api_router
 
 app = FastAPI(
     # title=config_api.PROJECT_NAME, 

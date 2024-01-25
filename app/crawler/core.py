@@ -6,7 +6,7 @@ import undetected_chromedriver as uc
 from time import sleep
 
 from .utils import json_saver,generate_url,get_names
-from ..config import config_api
+from config import config_api
 
 def get_page(url:str,driver:uc.Chrome)->bs.BeautifulSoup:
     

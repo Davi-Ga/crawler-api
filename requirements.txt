@@ -5,8 +5,10 @@ uvicorn
 beautifulsoup4
 pydantic
 pydantic_core
+PyPDF2
 selenium
 python-dotenv
+python-multipart
 requests
 typing_extensions
 webdriver-manager

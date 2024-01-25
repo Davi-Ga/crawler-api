@@ -18,7 +18,7 @@ directory_path = f"./data/{grupo}"
 # Fazer um lista de todos os documentos da pasta
 files = os.listdir(directory_path)
 data = []
-header = ["Name", "Original_Text", "Label"]
+header = ["Name", "Original_Text", "Color", "Label"]
 
 # Pegar um documento por vezes
 for file in files:
@@ -36,7 +36,7 @@ for file in files:
             for petition in original_text:
                 try:    
                     text = petition["body_petition"]
-                    data.append([f"{name}", f"{text}", f"None"])
+                    data.append([f"{name}", f"{text}", f"{grupo[:-1].capitalize()}", "None"])
                 except:
                     pass   
 
