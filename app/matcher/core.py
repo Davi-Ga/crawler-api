@@ -108,18 +108,21 @@ async def readJSON(file_json: dict, words_bag: UploadFile = File(...)) -> object
 
 
 
-async def readCsv(file: UploadFile = File(...), words_bag: UploadFile = File(...)):
+async def readCsv(file: UploadFile = File(...), words_bag_ganho: UploadFile = File(...), words_bag_perdido: UploadFile = File(...)):
     try:
         df = pd.read_csv(file.file)
         data = df["Original_Text"].str.lower()
 
         result = []
         label = []
-        word_bags = words_bag.file.readlines()
+        word_bags_ganho = words_bag_ganho.file.readlines()
+        words_bag_perdido = words_bag_perdido.file.readlines()
+
+        word_bags = words_bag_perdido + word_bags_ganho
 
         for i in range(len(df)):
             aux = []
-            for word in word_bags:
+            for word in word_bags_ganho:
                 word = word.decode('utf-8')
                 word=word.replace('\r\n', '')
 
@@ -128,15 +131,19 @@ async def readCsv(file: UploadFile = File(...), words_bag: UploadFile = File(...
 
                 elif re.search(word, data[i]):
                     result.append(word)
-                    aux.append("Fechado")
+                    aux.append("Perdido")
                 else:
-                    aux.append("Aberto")
+                    aux.append(aux[i])
                 print(result)
 
-            if "Fechado" in aux:
-                label.append("Fechado")
+            if "Perdido" in aux:
+                label.append("Perdido")
+            elif "Ganho":
+                label.append("Ganho")
             else:
-                label.append("Aberto")
+                label.append("Inconclusivo")
+                
+
 
         # print(df)
         df["Label"] = label
