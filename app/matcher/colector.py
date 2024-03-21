@@ -18,7 +18,7 @@ directory_path = f"./data/{grupo}"
 # Fazer um lista de todos os documentos da pasta
 files = os.listdir(directory_path)
 data = []
-header = ["Name", "Original_Text", "Cor", "Conclusao"]
+header = ["Name", "Original_Text",  "Cor", "Conclusao"]
 
 # Pegar um documento por vezes
 for file in files:
@@ -27,16 +27,19 @@ for file in files:
 
     path_file = f'{directory_path}/{file}'
     if(os.path.getsize(path_file) <= 2):
-        continue
+        os.remove(path_file)
     else:
         with open(path_file, 'r') as f:
-            print(f"{path_file}")
+            
             original_text = json.load(f)
 
-            for petition in original_text:
+            for index, petition in enumerate(original_text):
                 try:    
-                    text = petition["body"]
-                    data.append([f"{name}", f"{text}", f"{grupo[:-1].capitalize()}", "None"])
+                    text = petition["body_petition"]
+                    if name not in data:
+                        data.append([f"{name}", f"{text}", f"{grupo[:-1].capitalize()}", "None"])
+                    
+                        
                 except:
                     pass   
 

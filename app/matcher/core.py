@@ -112,6 +112,7 @@ async def readCsv(file: UploadFile = File(...), words_bag_ganho: UploadFile = Fi
     try:
         df = pd.read_csv(file.file)
         data = df["Original_Text"].str.lower()
+        
 
         result = []
         label = []
