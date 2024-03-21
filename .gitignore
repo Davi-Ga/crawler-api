@@ -5,3 +5,4 @@
 app/data
 .vscode
 
+app/features/scrapper/utils/__pycache__
