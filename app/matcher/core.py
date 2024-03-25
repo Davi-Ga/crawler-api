@@ -93,7 +93,7 @@ async def readJSON(file_json: dict, words_bag: UploadFile = File(...)) -> object
 
         for word in word_bags:
             word = word.decode('utf-8')
-            word=word.replace('\r\n', '')
+            word=word.replace(['\n', '\r' ], '')
 
             if re.search(word, file):
                 result.append(word)
@@ -125,7 +125,7 @@ async def readCsv(file: UploadFile = File(...), words_bag_ganho: UploadFile = Fi
             aux = []
             for word in word_bags_ganho:
                 word = word.decode('utf-8')
-                word=word.replace('\r\n', '')
+                word=word.replace(['\n', '\r' ], '')
 
                 if isinstance(data[i], float):
                     continue

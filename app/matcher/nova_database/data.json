@@ -1,0 +1,2444 @@
+[
+    {
+        "proposicao": {
+            "ementa": "Dispõe sobre a obrigatoriedade de fotografia no título de eleitor.",
+            "ementaDetalhada": "Altera a Lei nº 7.444 de 20 de dezembro de 1985.",
+            "keywords": "Alteração, Lei do Processamento Eletrônico do Eleitorado, alistamento eleitoral, obrigatoriedade, fotografia, título de eleitor, impressão digital, dados, cadastro, Justiça Eleitoral.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/104986/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "CARLOS FREDERICO THEODORO NADER",
+            "cpf": "85176427753",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/73825.jpg",
+            "sexo": "M",
+            "nascimento": "1965-09-21",
+            "local_nascimento": "Barra Mansa - RJ",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Garante ao acertador de qualquer tipo de jogo ou aposta, realizado ou autorizado pela loteria federal e/ou loterias estaduais, o direito ao anonimato com relação a identificação do seu nome e imagem em anúncios e/ou informativos.",
+            "ementaDetalhada": "",
+            "keywords": "Garantia, omissão, identificação, ganhador, loteria, concurso de prognóstico, proibição, utilização, nome, imagem, anúncio, propaganda, penalidade, multa, infrator.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/105313/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2138675",
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/178974"
+            }
+        },
+        "relator": {
+            "nome": "ANDRES NAVARRO SANCHEZ",
+            "cpf": "07078570820",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/178974.jpg",
+            "sexo": "M",
+            "nascimento": "1963-12-24",
+            "local_nascimento": "Limeira - SP",
+            "escolaridade": "Ensino Fundamental"
+        },
+        "proposicao_principal": {
+            "ementa": "Acrescenta art. 10-B à Lei n° 9.613, de 3 de março de 1998, para estabelecer obrigações quanto ao registro das operações relativas à exploração de loterias e sorteios, com o fim de prevenção do crime de \"lavagem\" ou ocultação de bens, direitos e valores.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei de Lavagem de Dinheiro, obrigatoriedade, critério, registro, pessoa jurídica, exploração, loteria, sorteio, pagamento, prêmio, dados, ganhador, prevenção, crime, lavagem de dinheiro, ocultação, bens."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dispõe sobre a obrigatoriedade das prestadoras do Serviço de Telefonia Fixa Comutada, do Serviço Móvel  Celular e do Serviço Móvel Pessoal de relacionar detalhadamente no documento de cobrança todas as ligações efetuadas.",
+            "ementaDetalhada": "",
+            "keywords": "Obrigatoriedade, concessionária, telefone celular, telefone fixo, detalhamento, fatura, cobrança, informações, número, local, país, data, horário, duração, ligação, valor, quantidade, pulso telefônico, penalidade, infrator.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/105847/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/586076",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "FRANCISCO RODRIGUES DE ALENCAR FILHO",
+            "cpf": "26451379700",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74171.jpg",
+            "sexo": "M",
+            "nascimento": "1949-10-19",
+            "local_nascimento": "Rio de Janeiro - RJ",
+            "escolaridade": "Mestrado"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera o inciso IV do art. 3º da Lei nº 9.472, de 16 de julho de 1997, para aprimorar o direito à informação sobre as condições de utilização dos créditos constituídos em modalidades de pagamento antecipado.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei Geral das Telecomunicações, disponibilidade, informações, sítio (Internet), antecipação, pagamento, telefone celular, utilização, critérios, tarifas, preço, telefonia, empresa de telecomunicações."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Institui o dia 02 de julho como data histórica no calendário das efemérides nacionais e concede a denominação \"Aeroporto Internacional de Salvador, Dois de Julho\" ao aeroporto internacional de Salvador.",
+            "ementaDetalhada": "",
+            "keywords": "Criação, Dia Nacional da Independência do Brasil na Bahia, comemoração, julho, data histórica, denominação, Aeroporto Internacional de Salvador  Dois de Julho,   Salvador, (BA), Bahia..",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/106067/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/227433"
+            }
+        },
+        "relator": {
+            "nome": "DOUGLAS DE PAULO VIEGAS",
+            "cpf": "25519061807",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/227433.jpg",
+            "sexo": "M",
+            "nascimento": "1979-06-19",
+            "local_nascimento": "São Paulo - SP",
+            "escolaridade": null
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera o inciso I do § 1º do art. 68 da Lei nº 9.279, de 14 de maio de 1996, dispondo sobre o licenciamento compulsório em caso de não fabricação do objeto da patente em Território Nacional.",
+            "ementaDetalhada": "",
+            "keywords": "Alteração, Nova Lei de Patentes,  licenciamento, produto, patente, inexistência, fabricação, Território Nacional, restrição, transferência, produção, exterior, inclusão, produto farmacêutico, medicamentos.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/106248/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/220584"
+            }
+        },
+        "relator": {
+            "nome": "CÁSSIO MURILO GALDINO DE ARAÚJO",
+            "cpf": "03182571494",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/220584.jpg",
+            "sexo": "M",
+            "nascimento": "1980-07-02",
+            "local_nascimento": "Pocinhos - PB",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Regulamenta o § 7º do art. 37 da Constituição Federal, para estabelecer os requisitos e as restrições aos ocupantes dos cargos públicos que especifica, considerados facilitadores de acesso a informações privilegiadas no âmbito da Administração Pública Federal.",
+            "ementaDetalhada": "Fixa um período de impedimento ou quarentena de 6 (seis) meses para o ex-titular. Regulamentando a Constituição Federal de 1988.",
+            "keywords": "Regulamentação, Constituição Federal, requisitos, restrição, servidor, Administração Pública, acesso, informação privilegiada,  Banco Central do Brasil (Bacen), Banco Nacional de Desenvolvimento Econômico e Social (BNDES), Superintendência de Seguros Privados (Susep), Comissão de Valores Mobiliários, Secretaria da Receita Federal, Departamento de Aviação Civil (DAC) (1969-2006), Empresa Brasileira de Infraestrutura Aeroportuária (Infraero), exigência, investidura, termo de compromisso, dedicação exclusiva, proibição, acumulação de cargos, titularidade, ações, debêntures, impedimento, exercício, atividade profissional, empresa privada, período, exoneração, conclusão, mandato, aposentadoria, ex - servidor, infração, improbidade administrativa, garantia, remuneração, salário, órgão público, vinculação, prazo, quarentena.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/106609/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/204365"
+            }
+        },
+        "relator": {
+            "nome": "GILSON MARQUES VIEIRA",
+            "cpf": "00824207939",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/204365.jpg",
+            "sexo": "M",
+            "nascimento": "1981-04-12",
+            "local_nascimento": "Rio do Sul - SC",
+            "escolaridade": "Pós-Graduação"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Estabelece prazo de impedimento para o ex-presidente e para os ex-diretores de agência reguladora ou de instituição financeira oficial, consoante o § 7º do art. 37 da Constituição Federal.",
+            "ementaDetalhada": "Fixa o prazo de \"quarentena\" de um ano, a partir do afastamento do cargo, a ocupante de cargo público, quando tiver acesso a informações privilegiadas.",
+            "keywords": "Regulamentação, Constituição Federal, fixação, prazo, impedimento, ex - presidente, ex - diretor, agência reguladora, instituição financeira oficial, banco oficial, prestação de serviço, empresa privada, restrição, divulgação, informação privilegiada, garantia, pagamento, percentual, remuneração, salário, período, quarentena, proibição, acumulação, vencimentos, aposentadoria.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/107537/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/106609",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "MÁRIO ASSAD JÚNIOR",
+            "cpf": "53724941668",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74329.jpg",
+            "sexo": "M",
+            "nascimento": "1965-08-11",
+            "local_nascimento": "Manhuaçu - MG",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Regulamenta o § 7º do art. 37 da Constituição Federal, para estabelecer os requisitos e as restrições aos ocupantes dos cargos públicos que especifica, considerados facilitadores de acesso a informações privilegiadas no âmbito da Administração Pública Federal.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Regulamentação, Constituição Federal, requisitos, restrição, servidor, Administração Pública, acesso, informação privilegiada,  Banco Central do Brasil (Bacen), Banco Nacional de Desenvolvimento Econômico e Social (BNDES), Superintendência de Seguros Privados (Susep), Comissão de Valores Mobiliários, Secretaria da Receita Federal, Departamento de Aviação Civil (DAC) (1969-2006), Empresa Brasileira de Infraestrutura Aeroportuária (Infraero), exigência, investidura, termo de compromisso, dedicação exclusiva, proibição, acumulação de cargos, titularidade, ações, debêntures, impedimento, exercício, atividade profissional, empresa privada, período, exoneração, conclusão, mandato, aposentadoria, ex - servidor, infração, improbidade administrativa, garantia, remuneração, salário, órgão público, vinculação, prazo, quarentena."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera dispositivos da Lei nº 9.648, de 27 de maio de 1998 para criar Fundo de Preservação de Recursos Hídricos.",
+            "ementaDetalhada": "",
+            "keywords": "Alteração, lei federal, aumento, percentual, compensação financeira, pagamento, royalties, concessionária, Estado (ente federado) Município, Distrito Federal (Brasil), localização, instalação, produção, energia elétrica, órgão público, Administração Direta, União,  comitê, bacia hidrografica, aplicação de recursos, fundos, projeto, conservação, recursos hídricos, saneamento básico, reflorestamento.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/109288/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/73776"
+            }
+        },
+        "relator": {
+            "nome": "JOSÉ MOHAMED JANENE",
+            "cpf": "14430517991",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/73776.jpg",
+            "sexo": "M",
+            "nascimento": "1955-09-12",
+            "local_nascimento": "Santo Inácio - PR",
+            "escolaridade": "Secundário"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Revigora a Lei nº 2.689, de 20 de Dezembro de 1955, e  dá  outras providências.                              .",
+            "ementaDetalhada": "Restabelece a lei que denomina \"Dois de Julho\" o aeroporto internacional de Salvador; revoga a lei que o denomina, atualmente, \"Deputado Luís Eduardo Magalhães\".",
+            "keywords": "Restabelecimento, lei federal, denominação, Aeroporto Internacional Dois de Julho, Aeroporto Internacional Deputado Luíz Educardo Magalhães, Município, Salvador, (BA), revogação, legislação.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/109450/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/106067",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "COLBERT MARTINS DA SILVA FILHO",
+            "cpf": "13236164549",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74230.jpg",
+            "sexo": "M",
+            "nascimento": "1952-10-02",
+            "local_nascimento": "Feira de Santana - BA",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Institui o dia 02 de julho como data histórica no calendário das efemérides nacionais e concede a denominação \"Aeroporto Internacional de Salvador, Dois de Julho\" ao aeroporto internacional de Salvador.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Criação, Dia Nacional da Independência do Brasil na Bahia, comemoração, julho, data histórica, denominação, Aeroporto Internacional de Salvador  Dois de Julho,   Salvador, (BA), Bahia.."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dispõe sobre a relação discriminada de todas as ligações telefônicas e o detalhamento de todos os tributos incidentes, nas respectivas contas.",
+            "ementaDetalhada": "",
+            "keywords": "Obrigatoriedade, concessionária, telefonia, apresentação, usuário, relação, ligação, dia, hora, duração, quantidade, pulso telefônico, detalhamento, contas, base de cálculo, alíquota, tributos, penalidade, infrator.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/109638/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/586076",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "ELIMAR MÁXIMO DAMASCENO",
+            "cpf": "47133732734",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74268.jpg",
+            "sexo": "M",
+            "nascimento": "1951-02-17",
+            "local_nascimento": "Santa Maria do Suaçuí - MG",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera o inciso IV do art. 3º da Lei nº 9.472, de 16 de julho de 1997, para aprimorar o direito à informação sobre as condições de utilização dos créditos constituídos em modalidades de pagamento antecipado.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei Geral das Telecomunicações, disponibilidade, informações, sítio (Internet), antecipação, pagamento, telefone celular, utilização, critérios, tarifas, preço, telefonia, empresa de telecomunicações."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Revoga o art. 70 da Lei nº 4.117, de 1962, extingüindo a pena de detenção para quem opera emissora de radiodifusão sem autorização oficial.",
+            "ementaDetalhada": "",
+            "keywords": "Alteração, Código Brasileiro de Telecomunicações, extinção, pena de detenção, operador, emissora, radiodifusão, inexistência, autorização, funcionamento, atividade clandestina.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/112113/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/220697"
+            }
+        },
+        "relator": {
+            "nome": "JADYEL SILVA ALENCAR",
+            "cpf": "64754570359",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/220697.jpg",
+            "sexo": "M",
+            "nascimento": "1987-07-23",
+            "local_nascimento": "Teresina - PI",
+            "escolaridade": "Superior Incompleto"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dispõe sobre a obrigatoriedade de as instituições financeiras bancárias demonstrarem, nos extratos de movimentação de seus clientes, todos os encargos, despesas e taxas, e dá outras providências.",
+            "ementaDetalhada": "",
+            "keywords": "Obrigatoriedade, instituição financeira, bancos, informação, extrato de conta bancária, valor, tarifas bancárias, despesa, taxas, conta corrente, penalidade, infrator.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/115188/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/220588"
+            }
+        },
+        "relator": {
+            "nome": "ROBERTO DUARTE JUNIOR",
+            "cpf": "67681468072",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/220588.jpg",
+            "sexo": "M",
+            "nascimento": "1975-04-25",
+            "local_nascimento": "Porto Alegre - RS",
+            "escolaridade": "Pós-Graduação"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Acrescenta inciso  VIII e parágrafo único ao art. 473 da Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, para dispor sobre falta justificada de pais de crianças portadoras de deficiência física para acompanhamento de terapias e tratamentos médicos.",
+            "ementaDetalhada": "",
+            "keywords": "Alteração, Consolidação das Leis do Trabalho (CLT), autorização, trabalhador, falta justificada,  acompanhamento, filho, criança, pessoa  portadora de deficiência, deficiente físico, apresentação, laudo médico, comprovação, necessidade, acompanhamento, tratamento médico, assistência médico-hospitalar, exclusividade, concessão, benefício, pai, mãe, possibilidade, dias alternados.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/116420/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/141422"
+            }
+        },
+        "relator": {
+            "nome": "EFRAIM DE ARAÚJO MORAIS FILHO",
+            "cpf": "00770338410",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/141422.jpg",
+            "sexo": "M",
+            "nascimento": "1979-03-18",
+            "local_nascimento": "João Pessoa - PB",
+            "escolaridade": "Pós-Graduação"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dispõe sobre dados obrigatórios nas faturas telefônicas e adota outras providências.",
+            "ementaDetalhada": "",
+            "keywords": "Obrigatoriedade, concessionária, telefonia, detalhamento, conta telefonica, telefone fixo, telefone celular, ligação local, informações, data, horário, duração, número, chamada, valor, cobrança, tarifas, quantidade, pulso telefônico, mês, ano, penalidade, infrator.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/118138/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/586076",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "COLBERT MARTINS DA SILVA FILHO",
+            "cpf": "13236164549",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74230.jpg",
+            "sexo": "M",
+            "nascimento": "1952-10-02",
+            "local_nascimento": "Feira de Santana - BA",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera o inciso IV do art. 3º da Lei nº 9.472, de 16 de julho de 1997, para aprimorar o direito à informação sobre as condições de utilização dos créditos constituídos em modalidades de pagamento antecipado.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei Geral das Telecomunicações, disponibilidade, informações, sítio (Internet), antecipação, pagamento, telefone celular, utilização, critérios, tarifas, preço, telefonia, empresa de telecomunicações."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Acrescenta ao art. 55 da Lei nº 8.666 de 21 de junho de 1993, o parágrafo que discrimina.",
+            "ementaDetalhada": "Obriga a divulgação, no teor de cada peça publicitária oficial, das despesas totais realizadas e o número do contrato do processo licitatório.",
+            "keywords": "Alteração, Lei das Licitações, publicidade, obrigatoriedade, Poder Público, inclusão, filme publicitário, campanha educativa, valor, despesa, propaganda, número, contrato, licitação.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/121389/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/165470"
+            }
+        },
+        "relator": {
+            "nome": "RODRIGO SANTANA VALADARES",
+            "cpf": "04389715585",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/165470.jpg",
+            "sexo": "M",
+            "nascimento": "1989-08-06",
+            "local_nascimento": "Aracaju - SE",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera a Lei nº 8.429, de 1992 (Lei de Improbidade Administrativa).",
+            "ementaDetalhada": "Estabelece a possibilidade da ação civil pública proposta pelo Ministério Público para as ações de improbidade administrativa, ou pela pessoa jurídica ou qualquer cidadão através de ação popular.",
+            "keywords": "Alteração, Lei da Improbidade Administrativa, proposta, Ministério Público, ação civil pública, ação popular, pessoa jurídica, cidadão, extinção, fase, defesa preliminar, manifestação, acusado, agravo de instrumento, perda, função pública, cassação, direitos políticos, decisão judicial, primeira instância,  recurso judicial, efeito suspensivo, concessão, tutela antecipada, prazo, prescrição, ação judicial, ressarcimento, Fazenda Nacional.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/125394/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/165470"
+            }
+        },
+        "relator": {
+            "nome": "RODRIGO SANTANA VALADARES",
+            "cpf": "04389715585",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/165470.jpg",
+            "sexo": "M",
+            "nascimento": "1989-08-06",
+            "local_nascimento": "Aracaju - SE",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera a Lei nº 9.612, de 19 de fevereiro de 1998, que \"Institui o Serviço de Radiodifusão Comunitária\" e dá outras providências.",
+            "ementaDetalhada": "Visa  permitir a outorga de Serviço de Radiodifusão Comunitária para instituição religiosa e política.",
+            "keywords": "Alteração, Lei das Rádios Comunitárias, inclusão, emissora, difusão, doutrina, política partidária, religião, revogação, dispositivos, proibição, divulgação, ideologia, natureza política, natureza filosófica, natureza cultural, liberdade de pensamento, autorização, instituição religiosa, partido político, exploração, atividade, radiodifusão comunitária, restrição, vinculação, compromisso, parente, empresa.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/125813/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/492476",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "LUIZ FERNANDO DE FABINHO ARAÚJO LIMA",
+            "cpf": "11034629549",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74063.jpg",
+            "sexo": "M",
+            "nascimento": "1957-11-11",
+            "local_nascimento": "Feira de Santana - BA",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera a Lei nº 9.612, de 19 de fevereiro de 1998, que \"institui o Serviço de Radiodifusão Comunitária e dá outras providências\", para disciplinar a denominação das entidades autorizadas a executar o Serviço de Radiodifusão Comunitária.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei das Rádios Comunitárias, proibição, utilização, sigla, denominação, rádio comunitária."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera a  Lei nº 8.036, de 11 de maio de 1990, que \" dispõe sobre o Fundo de Garantia do Tempo de Serviço e dá outras providências\", para permitir a movimentação do saldo da conta vinculada para aquisição de imóvel rural.",
+            "ementaDetalhada": "",
+            "keywords": "Alteração, Lei do FGTS, autorização, movimentação, saque, Conta vinculada do FGTS, pagamento, aquisição, imóvel rural.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/125816/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/220578"
+            }
+        },
+        "relator": {
+            "nome": "JOSENILDO SANTOS ABRANTES",
+            "cpf": "43230849272",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/220578.jpg",
+            "sexo": "M",
+            "nascimento": "1973-03-29",
+            "local_nascimento": "Macapá - AP",
+            "escolaridade": "Pós-Graduação"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera a Lei nº 9.612, de 19 de fevereiro de 1998, que \"Institui o Serviço de Radiodifusão Comunitária e dá outras providências\".",
+            "ementaDetalhada": "Autoriza as emissoras de Serviço de Radiodifusão Comunitária a veicular publicidade e divulgação oficial da União em caráter oneroso.",
+            "keywords": "Alteração, Lei das Rádios Comunitárias, autorização, emissora, rádio, divulgação, propaganda, União Federal, destinação, percentual, pagamento, verba, publicidade.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/126405/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/492476",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "JOAQUIM WASHINGTON LUIZ DE OLIVEIRA",
+            "cpf": "06407161304",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74490.jpg",
+            "sexo": "M",
+            "nascimento": "1949-12-24",
+            "local_nascimento": "Várzea Alegre - CE",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera a Lei nº 9.612, de 19 de fevereiro de 1998, que \"institui o Serviço de Radiodifusão Comunitária e dá outras providências\", para disciplinar a denominação das entidades autorizadas a executar o Serviço de Radiodifusão Comunitária.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei das Rádios Comunitárias, proibição, utilização, sigla, denominação, rádio comunitária."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera a Lei nº 9.612, de 19 de fevereiro de 1998, que \"Institui o Serviço de Radiodifusão Comunitária e dá outras providências\".",
+            "ementaDetalhada": "Disciplina o patrocínio e a realização de programas religiosos nas rádios comunitárias.",
+            "keywords": "Alteração, Lei das Rádios Comunitárias, autorização, emissora, rádio, proselitismo, difusão, pensamento, religião, divisão, espaço, programação, entidade, Conselho Comunitário, igreja, instituição religiosa, sábado, domingo, inclusão, transmissão, atividade, instituição beneficente, entidade de fins filantrópicos, (ONG), sindicato, isenção, pagamento, patrocínio, limitação, tempo, propaganda, proibição, locutor, depoimento pessoal, multa, infrator.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/127672/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/492476",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "WLADIMIR AFONSO DA COSTA RABELO",
+            "cpf": "13761900287",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/73930.jpg",
+            "sexo": "M",
+            "nascimento": "1964-01-16",
+            "local_nascimento": "Belém - PA",
+            "escolaridade": "Secundário"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera a Lei nº 9.612, de 19 de fevereiro de 1998, que \"institui o Serviço de Radiodifusão Comunitária e dá outras providências\", para disciplinar a denominação das entidades autorizadas a executar o Serviço de Radiodifusão Comunitária.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei das Rádios Comunitárias, proibição, utilização, sigla, denominação, rádio comunitária."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dispõe sobre a veiculação de propagandas no Serviço de Radiodifusão Comunitária.",
+            "ementaDetalhada": "Autoriza a veiculação de propaganda das micros e pequenas empresas; isenta as rádios comunitárias da cobrança de direitos autorais sobre a música popular brasileira (MPB); altera a Lei nº 9.612, de 1998.",
+            "keywords": "Alteração, Lei das Rádios Comunitárias, autorização, transmissão, propaganda comercial, publicidade, anúncio, microempresa, pequena empresa, emissora, rádio comunitária, dispensa, cobrança, direito autoral, música popular, música brasileira.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/135529/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/492476",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "FERNANDO DANTAS FERRO",
+            "cpf": "12582980404",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74417.jpg",
+            "sexo": "M",
+            "nascimento": "1951-09-05",
+            "local_nascimento": "Bom Conselho - PE",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera a Lei nº 9.612, de 19 de fevereiro de 1998, que \"institui o Serviço de Radiodifusão Comunitária e dá outras providências\", para disciplinar a denominação das entidades autorizadas a executar o Serviço de Radiodifusão Comunitária.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei das Rádios Comunitárias, proibição, utilização, sigla, denominação, rádio comunitária."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Disciplina a cobrança de tarifas pela prestação de serviços bancários, por parte das instituições financeiras e demais instituições autorizadas a funcionar pelo Banco Central do Brasil e dá outras providências.",
+            "ementaDetalhada": "",
+            "keywords": "Obrigatoriedade, instituição financeira, banco, emissão, fatura, cobrança, Tarifa bancária, proibição, débito, valor, conta corrente, ausência, autorização, cliente, correntista, exclusão, retirada, Contribuição Provisória sobre Movimentação ou Transmissão de Valores e de Créditos e Direitos de Natureza Financeira (CPMF), juros, utilização, cheque especial, pagamento, financiamento, empréstimo, prestação de serviços, contrato, tributação.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/135755/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/115188",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "NEUCIMAR FERREIRA FRAGA",
+            "cpf": "81824726791",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74165.jpg",
+            "sexo": "M",
+            "nascimento": "1966-06-26",
+            "local_nascimento": "Itanhém - BA",
+            "escolaridade": "Superior Incompleto"
+        },
+        "proposicao_principal": {
+            "ementa": "Dispõe sobre a obrigatoriedade de as instituições financeiras bancárias demonstrarem, nos extratos de movimentação de seus clientes, todos os encargos, despesas e taxas, e dá outras providências.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Obrigatoriedade, instituição financeira, bancos, informação, extrato de conta bancária, valor, tarifas bancárias, despesa, taxas, conta corrente, penalidade, infrator."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dispõe sobre a proibição de realização de provas orais em concursos públicos e dá outras providências",
+            "ementaDetalhada": "",
+            "keywords": "Proibição, realização, prova oral, concurso público, eliminação, candidato, autorização, prova, classificação, candidato aprovado.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/136044/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/89536"
+            }
+        },
+        "relator": {
+            "nome": "PAULO FERNANDO MELO DA COSTA",
+            "cpf": "27972380104",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/89536.jpg",
+            "sexo": "M",
+            "nascimento": "1967-06-11",
+            "local_nascimento": "Brasília - DF",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dispõe sobre a veiculação de peças publicitárias no Serviço de Radiodifusão Comunitária.",
+            "ementaDetalhada": "Altera a Lei nº 9.612, de 1998.",
+            "keywords": "Alteração, Lei das Rádios Comunitárias, autorização, rádio comunitária, divulgação, anúncio, propaganda comercial, empresa, localização, área, cobertura, emissora.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/136792/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/492476",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "ADELOR FRANCISCO VIEIRA",
+            "cpf": "11365870987",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74386.jpg",
+            "sexo": "M",
+            "nascimento": "1947-01-07",
+            "local_nascimento": "Blumenau - SC",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera a Lei nº 9.612, de 19 de fevereiro de 1998, que \"institui o Serviço de Radiodifusão Comunitária e dá outras providências\", para disciplinar a denominação das entidades autorizadas a executar o Serviço de Radiodifusão Comunitária.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei das Rádios Comunitárias, proibição, utilização, sigla, denominação, rádio comunitária."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Fica proibido ex-funcionário público que exercia cargo de chefia assumir função igual ou semelhante na iniciativa privada.",
+            "ementaDetalhada": "",
+            "keywords": "Proibição, ex-servidor, exercício, cargo de direção, chefia, cargo público, informação privilegiada, ocupação, similaridade, cargo, empresa privada, iniciativa privada, exigência, quarentena.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/144992/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/106609",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "ROBSON TUMA",
+            "cpf": "12697282882",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/73558.jpg",
+            "sexo": "M",
+            "nascimento": "1968-09-05",
+            "local_nascimento": "São Paulo - SP",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Regulamenta o § 7º do art. 37 da Constituição Federal, para estabelecer os requisitos e as restrições aos ocupantes dos cargos públicos que especifica, considerados facilitadores de acesso a informações privilegiadas no âmbito da Administração Pública Federal.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Regulamentação, Constituição Federal, requisitos, restrição, servidor, Administração Pública, acesso, informação privilegiada,  Banco Central do Brasil (Bacen), Banco Nacional de Desenvolvimento Econômico e Social (BNDES), Superintendência de Seguros Privados (Susep), Comissão de Valores Mobiliários, Secretaria da Receita Federal, Departamento de Aviação Civil (DAC) (1969-2006), Empresa Brasileira de Infraestrutura Aeroportuária (Infraero), exigência, investidura, termo de compromisso, dedicação exclusiva, proibição, acumulação de cargos, titularidade, ações, debêntures, impedimento, exercício, atividade profissional, empresa privada, período, exoneração, conclusão, mandato, aposentadoria, ex - servidor, infração, improbidade administrativa, garantia, remuneração, salário, órgão público, vinculação, prazo, quarentena."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Obriga as concessionárias do serviço de telefonia móvel ou fixo a encaminharem as faturas de contas com descrição detalhada das ligações aos usuários.",
+            "ementaDetalhada": "",
+            "keywords": "Obrigatoriedade, concessionária, telefonia, descrição, detalhamento, conta telefônica, telefone fixo, telefone celular, usuário, infrator,  multa.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/148756/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/586076",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "MILTON ANTONIO CASQUEL MONTI",
+            "cpf": "02980372897",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74787.jpg",
+            "sexo": "M",
+            "nascimento": "1961-06-11",
+            "local_nascimento": "São Manuel - SP",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera o inciso IV do art. 3º da Lei nº 9.472, de 16 de julho de 1997, para aprimorar o direito à informação sobre as condições de utilização dos créditos constituídos em modalidades de pagamento antecipado.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei Geral das Telecomunicações, disponibilidade, informações, sítio (Internet), antecipação, pagamento, telefone celular, utilização, critérios, tarifas, preço, telefonia, empresa de telecomunicações."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera a Lei nº 7.998, de 11 de janeiro de 1990, que \"Regula o Programa do Seguro-Desemprego, o Abono Salarial, institui o Fundo de Amparo ao Trabalhador - FAT, e dá outras providências.\", a fim de reduzir o período aquisitivo de acesso ao seguro desemprego para os trabalhadores rurais ocupados em culturas sazonais.",
+            "ementaDetalhada": "",
+            "keywords": "Alteração, Lei do Seguro-Desemprego, redução, período aquisitivo, prazo, trabalhador rural, atividade sazonal, recebimento, benefício.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/155872/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/74856"
+            }
+        },
+        "relator": {
+            "nome": "MARIA LAURA MONTEZA DE SOUZA CARNEIRO",
+            "cpf": "79401546720",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74856.jpg",
+            "sexo": "F",
+            "nascimento": "1963-05-01",
+            "local_nascimento": "Rio de Janeiro - RJ",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Acrescenta art. ao Decreto-Lei nº 2.848, de 7 de dezembro de 1940 - Código Penal, criando um novo tipo penal.",
+            "ementaDetalhada": "Tipifica como crime contra a administração da justiça a obstrução no cumprimento de ordem judicial ou ação da autoridade policial em investigação criminal.",
+            "keywords": "Alteração, Código Penal, tipicidade, Crime contra a Administração da Justiça, obstrução, impedimento, atraso, cumprimento, ordem judicial, investigação criminal, pena de  detenção, infrator.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/156851/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/65551"
+            }
+        },
+        "relator": {
+            "nome": "RICARDO WAGNER DE CARVALHO LAGO",
+            "cpf": "01706047304",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/65551.jpg",
+            "sexo": "M",
+            "nascimento": "1944-02-15",
+            "local_nascimento": "Pedreiras - MA",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Obriga a Caixa Econômica Federal a divulgar os premiados nas loterias que administra.",
+            "ementaDetalhada": "",
+            "keywords": "Obrigatoriedade, Caixa Econômica Federal (CEF), divulgação, nome, número, Cadastro de Pessoas Físicas (CPF), comprovante, aposta, ganhador, prêmio, loteria, concurso de prognóstico.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/159273/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/105313",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "FRANCISCO GARCIA RODRIGUES",
+            "cpf": "00530948249",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74355.jpg",
+            "sexo": "M",
+            "nascimento": "1948-12-30",
+            "local_nascimento": "Manaus - AM",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Garante ao acertador de qualquer tipo de jogo ou aposta, realizado ou autorizado pela loteria federal e/ou loterias estaduais, o direito ao anonimato com relação a identificação do seu nome e imagem em anúncios e/ou informativos.",
+            "situacao": "Tramitando em Conjunto",
+            "tipo": "Projeto de Lei",
+            "keywords": "Garantia, omissão, identificação, ganhador, loteria, concurso de prognóstico, proibição, utilização, nome, imagem, anúncio, propaganda, penalidade, multa, infrator."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Acrescenta o art. 4º-A à Lei nº 9.472, de 16 de julho de 1997, criando obrigações às prestadoras do serviço telefônico, fixo ou móvel, e dá outras providências.",
+            "ementaDetalhada": "",
+            "keywords": "Alteração, Lei Geral das Telecomunicações, obrigatoriedade, concessionária, telefonia, disponibilidade, consulta, assinante, conhecimento, valor, débitos, gastos pessoais, conta telefonica, telefone celular pré-pago, telefone celular pós-pago, telefone fixo, anterioridade, fatura, inclusão, relação, ligação, chamada, local.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/250409/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/586076",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "IVAN VALENTE",
+            "cpf": "37655582815",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/73531.jpg",
+            "sexo": "M",
+            "nascimento": "1946-07-05",
+            "local_nascimento": "São Paulo - SP",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera o inciso IV do art. 3º da Lei nº 9.472, de 16 de julho de 1997, para aprimorar o direito à informação sobre as condições de utilização dos créditos constituídos em modalidades de pagamento antecipado.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei Geral das Telecomunicações, disponibilidade, informações, sítio (Internet), antecipação, pagamento, telefone celular, utilização, critérios, tarifas, preço, telefonia, empresa de telecomunicações."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dispõe sobre a cobrança de tarifas pela prestação de serviços bancários.",
+            "ementaDetalhada": "",
+            "keywords": "Obrigatoriedade, instituição financeira, bancos, informação, usuário, correntista, valor, cobrança, taxas, tarifas bancárias, prestação de serviço, reajuste, aumento, penalidade, infrator.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/258560/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/115188",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "ALMIR OLIVEIRA MOURA",
+            "cpf": "51255510749",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74167.jpg",
+            "sexo": "M",
+            "nascimento": "1959-05-22",
+            "local_nascimento": "Rio de Janeiro - RJ",
+            "escolaridade": "Superior Incompleto"
+        },
+        "proposicao_principal": {
+            "ementa": "Dispõe sobre a obrigatoriedade de as instituições financeiras bancárias demonstrarem, nos extratos de movimentação de seus clientes, todos os encargos, despesas e taxas, e dá outras providências.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Obrigatoriedade, instituição financeira, bancos, informação, extrato de conta bancária, valor, tarifas bancárias, despesa, taxas, conta corrente, penalidade, infrator."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Torna obrigatório que as empresas concessionárias de serviço público de telefonia fixa e móvel, incluam nas faturas de cobrança informações detalhadas referentes aos pulsos gastos pelo consumidor, e dá outras providências.",
+            "ementaDetalhada": "",
+            "keywords": "Obrigatoriedade, concessionária de serviço público,  telefone fixo, telefone celular, inclusão, informação ao consumidor, fatura, cobrança, conta telefônica, data, horário, duração, número, ligação telefonônica, , penalidade, infrator.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/258780/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/586076",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "CARLOS FREDERICO THEODORO NADER",
+            "cpf": "85176427753",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/73825.jpg",
+            "sexo": "M",
+            "nascimento": "1965-09-21",
+            "local_nascimento": "Barra Mansa - RJ",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera o inciso IV do art. 3º da Lei nº 9.472, de 16 de julho de 1997, para aprimorar o direito à informação sobre as condições de utilização dos créditos constituídos em modalidades de pagamento antecipado.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei Geral das Telecomunicações, disponibilidade, informações, sítio (Internet), antecipação, pagamento, telefone celular, utilização, critérios, tarifas, preço, telefonia, empresa de telecomunicações."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Concede desconto de 50% (cinqüenta por cento) na aquisição de passagem no sistema de transporte interestadual para estudantes universitários.",
+            "ementaDetalhada": "",
+            "keywords": "Concessão, desconto, metade, valor, aquisição, passagem, ônibus, transporte interestadual,  estudante universitário, apresentação, carteira estudantil.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/258784/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/204541"
+            }
+        },
+        "relator": {
+            "nome": "EDUARDO HENRIQUE MAIA BISMARCK",
+            "cpf": "61882577353",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/204541.jpg",
+            "sexo": "M",
+            "nascimento": "1981-11-14",
+            "local_nascimento": "Fortaleza - CE",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Permite a utilização dos recursos do Fundo de Garantia do Tempo de Serviço (FGTS) para pagamento de parcelas de anuidade escolar do trabalhador ou de seus filhos dependentes, de até 24 (vinte e quatro) anos de idade.",
+            "ementaDetalhada": "Altera a Lei nº 8.036, de 1990 (Medidas Provisórias nºs 2.164-41 e 2.197-43, ambas de 2001, e Lei nº 10.878, de 2004).",
+            "keywords": "Alteração, Lei do FGTS, autorização, saque, movimentação, Conta vinculada do FGTS, pagamento, parcela, anuidade escolar, trabalhador, dependente, filho, matrícula, curso superior, universidade particular.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/260688/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/152605"
+            }
+        },
+        "relator": {
+            "nome": "GLAUBER DE MEDEIROS BRAGA",
+            "cpf": "09740756719",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/152605.jpg",
+            "sexo": "M",
+            "nascimento": "1982-06-26",
+            "local_nascimento": "Nova Friburgo - RJ",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera os arts. 11 e 12 da Lei nº 8.429, de 2 de junho de 1992, que \"Dispõe sobre as sanções aplicáveis aos agentes públicos nos casos de enriquecimento ilícito no exercício de mandato, cargo, emprego ou função na administração pública direta, indireta ou fundacional e dá outras providências\".",
+            "ementaDetalhada": "Inclui como ato de improbidade administrativa  associar nome, símbolo e imagem de autoridade ou servidor público a algum serviço social ou de cunho assistencialista que caracterize promoção pessoal.",
+            "keywords": "Alteração, Lei da Improbidade Administrativa, tipicidade, crime eleitoral, promoção, benefício pessoal, nome, imagem, autoridade, servidor, publicidade, propaganda, órgão público, serviço social, atividade assistencial, obra filantrópica.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/261141/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/310382",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "FRANCISCO RODRIGUES DE ALENCAR FILHO",
+            "cpf": "26451379700",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74171.jpg",
+            "sexo": "M",
+            "nascimento": "1949-10-19",
+            "local_nascimento": "Rio de Janeiro - RJ",
+            "escolaridade": "Mestrado"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera as Leis nºs  8.429, de 2 de junho de 1992, e 1.079, de 10 de abril de 1950, e o Decreto-Lei nº 201, de 27 de fevereiro de 1967, para tipificar, como ato de improbidade administrativa e como crime de responsabilidade, a utilização da publicidade oficial para promoção pessoal.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei da Improbidade Administrativa, decreto-lei federal, tipicidade, crime de responsabilidade, realização, publicidade institucional, campanha educativa, utilização, nome, símbolo, imagem, promoção, pessoal, autoridade, servidor público civil, Prefeito, Vereador."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Concede desconto de 50% aos estudantes comprovadamente carentes no sistema de transporte coletivo interestadual.",
+            "ementaDetalhada": "",
+            "keywords": "Concessão, desconto, metade, valor, aquisição, passagem, transporte interestadual, ônibus, estudante, passe estudantil, transporte ferroviário, transporte aquaviário.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/261773/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/258784",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "EDSON GONÇALVES DUARTE",
+            "cpf": "38251051568",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74061.jpg",
+            "sexo": "M",
+            "nascimento": "1965-11-02",
+            "local_nascimento": "Juazeiro - BA",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Concede desconto de 50% (cinqüenta por cento) na aquisição de passagem no sistema de transporte interestadual para estudantes universitários.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Concessão, desconto, metade, valor, aquisição, passagem, ônibus, transporte interestadual,  estudante universitário, apresentação, carteira estudantil."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Concede descontos em passagens aéreas e hotéis, aos idosos e às pessoas portadoras deficiência, nos termos que especifica.",
+            "ementaDetalhada": "Concede  descontos no período de baixa temporada.",
+            "keywords": "Concessão, desconto, passagem aérea, diárias, hotel, idoso, pessoa portadora de deficiência, limitação, renda.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/261798/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/258784",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "MARIA GORETE PEREIRA",
+            "cpf": "08187452315",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/129618.jpg",
+            "sexo": "F",
+            "nascimento": "1952-04-10",
+            "local_nascimento": "Juazeiro do Norte - CE",
+            "escolaridade": "Pós-Graduação"
+        },
+        "proposicao_principal": {
+            "ementa": "Concede desconto de 50% (cinqüenta por cento) na aquisição de passagem no sistema de transporte interestadual para estudantes universitários.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Concessão, desconto, metade, valor, aquisição, passagem, ônibus, transporte interestadual,  estudante universitário, apresentação, carteira estudantil."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dá nova redação ao art. 40 e seus incisos I e II, da Lei nº 10.741, de 1º de outubro de 2003, que \"dispõe sobre o Estatuto do Idoso e dá outras providências\".",
+            "ementaDetalhada": "Inclui a obrigatoriedade de reserva de vagas nos transportes aéreos e aquáticos; define um desconto de 50% sobre o menor preço praticado para os idosos que excederem as vagas gratuitas.",
+            "keywords": "Alteração, Estatuto do Idoso, garantia, reserva, vaga, transporte gratuito, aeronave,  trem, embarcação, navio, barco, concessão, desconto, metade, valor, passagem.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/263332/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/258784",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "JAIR MESSIAS BOLSONARO",
+            "cpf": "45317828791",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74847.jpg",
+            "sexo": "M",
+            "nascimento": "1955-03-21",
+            "local_nascimento": "Glicério - SP",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Concede desconto de 50% (cinqüenta por cento) na aquisição de passagem no sistema de transporte interestadual para estudantes universitários.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Concessão, desconto, metade, valor, aquisição, passagem, ônibus, transporte interestadual,  estudante universitário, apresentação, carteira estudantil."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dispõe sobre as condições para a realização e análise de exames genéticos em seres humanos.",
+            "ementaDetalhada": "",
+            "keywords": "Normas, exame de DNA, investigação de paternidade, doença hereditária, exigência, laboratório, credenciamento, controle de qualidade, (INMETRO), autorização, funcionamento, assinatura, laudo médico, graduação, Biomedicina, Genética, obrigatoriedade, curso de pós - graduação, mestrado, categoria profissional, penalidade, infrator, interdição, clínica.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/263339/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/178929"
+            }
+        },
+        "relator": {
+            "nome": "DIEGO ALEXSANDER GONCALO PAULA GARCIA",
+            "cpf": "04702291955",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/178929.jpg",
+            "sexo": "M",
+            "nascimento": "1984-10-10",
+            "local_nascimento": "Bandeirantes - PR",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dispõe sobre a obrigatoriedade das concessionárias de serviços telefônicos a discriminarem em suas contas, todas as chamadas efetuadas com data, número, hora e tempo de conversação.",
+            "ementaDetalhada": "",
+            "keywords": "Obrigatoriedade, concessionária, telefonia, detalhamento, contas, chamada, data, hora, tempo, duração, ligação telefônica, reclamação, dúvida, consumo.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/267716/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/586076",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "CARLOS FREDERICO THEODORO NADER",
+            "cpf": "85176427753",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/73825.jpg",
+            "sexo": "M",
+            "nascimento": "1965-09-21",
+            "local_nascimento": "Barra Mansa - RJ",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera o inciso IV do art. 3º da Lei nº 9.472, de 16 de julho de 1997, para aprimorar o direito à informação sobre as condições de utilização dos créditos constituídos em modalidades de pagamento antecipado.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei Geral das Telecomunicações, disponibilidade, informações, sítio (Internet), antecipação, pagamento, telefone celular, utilização, critérios, tarifas, preço, telefonia, empresa de telecomunicações."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Determina o lançamento obrigatório de dados nas faturas dos serviços de telefonia.",
+            "ementaDetalhada": "",
+            "keywords": "Obrigatoriedade, concessionária, permissionária, telefone fixo, telefone celular, informações, conta telefônica, data, horário, duração, chamada, número, valor, pulso telefônico, ligação, penalidade, infrator.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/269837/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/586076",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "DENISE FROSSARD LOSCHI",
+            "cpf": "16662962600",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74252.jpg",
+            "sexo": "F",
+            "nascimento": "1950-10-06",
+            "local_nascimento": "Carangola - MG",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera o inciso IV do art. 3º da Lei nº 9.472, de 16 de julho de 1997, para aprimorar o direito à informação sobre as condições de utilização dos créditos constituídos em modalidades de pagamento antecipado.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei Geral das Telecomunicações, disponibilidade, informações, sítio (Internet), antecipação, pagamento, telefone celular, utilização, critérios, tarifas, preço, telefonia, empresa de telecomunicações."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dispõe sobre a concessão de passe estudantil aos alunos matriculados em cursos técnicos ou profissionalizantes.",
+            "ementaDetalhada": "",
+            "keywords": "Concessão, passe estudantil, passagem, transporte coletivo urbano, ônibus, aluno, curso técnico, ensino profissionalizante.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/269947/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/261773",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "SIMPLÍCIO MÁRIO DE OLIVEIRA",
+            "cpf": "02269600304",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74492.jpg",
+            "sexo": "M",
+            "nascimento": "1952-05-02",
+            "local_nascimento": "Piripiri - PI",
+            "escolaridade": "Secundário"
+        },
+        "proposicao_principal": {
+            "ementa": "Concede desconto de 50% aos estudantes comprovadamente carentes no sistema de transporte coletivo interestadual.",
+            "situacao": "Tramitando em Conjunto",
+            "tipo": "Projeto de Lei",
+            "keywords": "Concessão, desconto, metade, valor, aquisição, passagem, transporte interestadual, ônibus, estudante, passe estudantil, transporte ferroviário, transporte aquaviário."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Obriga as instituições bancárias a emitir e enviar mensalmente para seus clientes faturas correspondentes a tarifas dos serviços prestados no mês anterior.",
+            "ementaDetalhada": "Proibe as instituições bancárias de realizar o desconto das tarifas diretamente nas contas de seus clientes.",
+            "keywords": "Obrigatoriedade, instituição financeira, bancos, remessa, correntista, fatura, cobrança, tarifas bancárias, pagamento, rede bancária, débito automático, proibição, desconto, conta corrente.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/274994/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/135755",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "ALMIR OLIVEIRA MOURA",
+            "cpf": "51255510749",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74167.jpg",
+            "sexo": "M",
+            "nascimento": "1959-05-22",
+            "local_nascimento": "Rio de Janeiro - RJ",
+            "escolaridade": "Superior Incompleto"
+        },
+        "proposicao_principal": {
+            "ementa": "Disciplina a cobrança de tarifas pela prestação de serviços bancários, por parte das instituições financeiras e demais instituições autorizadas a funcionar pelo Banco Central do Brasil e dá outras providências.",
+            "situacao": "Tramitando em Conjunto",
+            "tipo": "Projeto de Lei",
+            "keywords": "Obrigatoriedade, instituição financeira, banco, emissão, fatura, cobrança, Tarifa bancária, proibição, débito, valor, conta corrente, ausência, autorização, cliente, correntista, exclusão, retirada, Contribuição Provisória sobre Movimentação ou Transmissão de Valores e de Créditos e Direitos de Natureza Financeira (CPMF), juros, utilização, cheque especial, pagamento, financiamento, empréstimo, prestação de serviços, contrato, tributação."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Obriga as operadoras de telefonia celular móvel a emitir demostrativos detalhando as ligações cobradas dos usuários de celular pré-pago, especialmente os custos e a duração de cada uma, bem como os tributos incidentes.",
+            "ementaDetalhada": "",
+            "keywords": "Obrigatoriedade, concessionária,  telefone celular pré-pago, remessa, usuário, demonstrativo, custo, duração, ligação, seviço, tributos, responsabilidade, despesa, cliente.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/275000/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/586076",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "ALMIR OLIVEIRA MOURA",
+            "cpf": "51255510749",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74167.jpg",
+            "sexo": "M",
+            "nascimento": "1959-05-22",
+            "local_nascimento": "Rio de Janeiro - RJ",
+            "escolaridade": "Superior Incompleto"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera o inciso IV do art. 3º da Lei nº 9.472, de 16 de julho de 1997, para aprimorar o direito à informação sobre as condições de utilização dos créditos constituídos em modalidades de pagamento antecipado.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei Geral das Telecomunicações, disponibilidade, informações, sítio (Internet), antecipação, pagamento, telefone celular, utilização, critérios, tarifas, preço, telefonia, empresa de telecomunicações."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dispõe sobre o direito do usuário do serviço móvel pessoal de acessar e consultar no visor de sua estação móvel os valores das tarifas, preços e demais encargos decorrentes do seu contrato de prestação de serviço móvel pessoal.",
+            "ementaDetalhada": "",
+            "keywords": "Direitos, usuário, telefone celular, informações, consulta, valor, tarifas, encargo, obrigatoriedade, empresa operadora, telefonia, garantia, inviolabilidade, sigilo telefônico, dados, local, origem, destino, chamada, código,  acesso, data, horário, duração, preço, ligação.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/277214/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/586076",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "JOÃO CALDAS DA SILVA",
+            "cpf": "21022097415",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74559.jpg",
+            "sexo": "M",
+            "nascimento": "1960-06-24",
+            "local_nascimento": "Ibateguara - AL",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera o inciso IV do art. 3º da Lei nº 9.472, de 16 de julho de 1997, para aprimorar o direito à informação sobre as condições de utilização dos créditos constituídos em modalidades de pagamento antecipado.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei Geral das Telecomunicações, disponibilidade, informações, sítio (Internet), antecipação, pagamento, telefone celular, utilização, critérios, tarifas, preço, telefonia, empresa de telecomunicações."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera a Lei nº 10.741, de 1º de outubro de 2003, que \"dispõe sobre o Estatuto do Idoso e dá outras providências\", para assegurar a gratuidade dos transportes coletivos públicos rurais aos idosos maiores de sessenta e cinco anos.",
+            "ementaDetalhada": "",
+            "keywords": "Alteração, Estatuto do Idoso, garantia, gratuidade, idoso, transporte coletivo, zona rural.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/279850/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/258784",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "MAX ROSENMANN",
+            "cpf": "00295655968",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/73780.jpg",
+            "sexo": "M",
+            "nascimento": "1944-11-29",
+            "local_nascimento": "Curitiba - PR",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Concede desconto de 50% (cinqüenta por cento) na aquisição de passagem no sistema de transporte interestadual para estudantes universitários.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Concessão, desconto, metade, valor, aquisição, passagem, ônibus, transporte interestadual,  estudante universitário, apresentação, carteira estudantil."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera o art. 199, da Lei nº 7.210, de 11 de julho de 1984, que institui a Lei de Execução Penal.",
+            "ementaDetalhada": "",
+            "keywords": "Alteração, Lei de Execução Penal, critérios, dispensa, utilização, algemas, prisão, presença, Tribunal do Júri, réu primário, bons antecedentes, inexistência, prisão em flagrante, fuga, resistência, ressalva, perigo.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/291745/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "WAGNER RUBINELLI",
+            "cpf": "04729393864",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74482.jpg",
+            "sexo": "M",
+            "nascimento": "1964-02-22",
+            "local_nascimento": "Santo André - SP",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dispõe sobre o detalhamento das contas telefônicas nos sítios da Internet das prestadoras de serviço telefônico.",
+            "ementaDetalhada": "Alterando a Lei nº 9.472, de 1997.",
+            "keywords": "Alteração, Lei Geral das Telecomunicações, obrigatoriedade, concessionária, telefonia, gratuidade, detalhamento, conta telefônica, página, (INTERNET), informações, data, horário, duração, ligação telefônica, custo, número, telefone, chamada.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/292052/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/586076",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "JORGE JOSÉ GOMES",
+            "cpf": "03627845404",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74495.jpg",
+            "sexo": "M",
+            "nascimento": "1946-03-03",
+            "local_nascimento": "Limoeiro - PE",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera o inciso IV do art. 3º da Lei nº 9.472, de 16 de julho de 1997, para aprimorar o direito à informação sobre as condições de utilização dos créditos constituídos em modalidades de pagamento antecipado.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei Geral das Telecomunicações, disponibilidade, informações, sítio (Internet), antecipação, pagamento, telefone celular, utilização, critérios, tarifas, preço, telefonia, empresa de telecomunicações."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dispõe sobre a obrigatoriedade de emissão de extrato de utilização para os assinantes de telefonia móvel pré-paga.",
+            "ementaDetalhada": "",
+            "keywords": "Obrigatoriedade, concessionária, telefone celular pré-pago, emissão, remessa, assinante, usuário, extrato, ligação telefônica, detalhamento, contas, fatura, duração, chamada, total, créditos, saldo, prazo, validade.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/292310/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/586076",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "RUBENEUTON OLIVEIRA LIMA",
+            "cpf": "05951391830",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74790.jpg",
+            "sexo": "M",
+            "nascimento": "1965-04-27",
+            "local_nascimento": "São Paulo - SP",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera o inciso IV do art. 3º da Lei nº 9.472, de 16 de julho de 1997, para aprimorar o direito à informação sobre as condições de utilização dos créditos constituídos em modalidades de pagamento antecipado.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei Geral das Telecomunicações, disponibilidade, informações, sítio (Internet), antecipação, pagamento, telefone celular, utilização, critérios, tarifas, preço, telefonia, empresa de telecomunicações."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Acrescenta o inciso VII ao art. 11 da Lei nº 8.429, de 2 de junho de 1992, que trata da improbidade administrativa, para proibir a publicidade de órgãos públicos realizada em desconformidade com o § 1º do art. 37 da Constituição Federal.",
+            "ementaDetalhada": "Incluindo como ato de improbidade administrativa a associação de nome, símbolo ou imagem de autoridade ou servidor público à publicidade institucional, evitando sua utilização como promoção pessoal.",
+            "keywords": "Alteração, Lei da Improbidade Administrativa, inclusão, publicidade institucional, órgão público, programa, obra pública, nome, símbolo, imagem, autoridade, servidor, promoção, pessoal.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/293705/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/261141",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "DARCY HUMBERTO MICHILES",
+            "cpf": "02226669272",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/73935.jpg",
+            "sexo": "M",
+            "nascimento": "1952-12-14",
+            "local_nascimento": "São Paulo - SP",
+            "escolaridade": "Superior Incompleto"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera os arts. 11 e 12 da Lei nº 8.429, de 2 de junho de 1992, que \"Dispõe sobre as sanções aplicáveis aos agentes públicos nos casos de enriquecimento ilícito no exercício de mandato, cargo, emprego ou função na administração pública direta, indireta ou fundacional e dá outras providências\".",
+            "situacao": "Tramitando em Conjunto",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei da Improbidade Administrativa, tipicidade, crime eleitoral, promoção, benefício pessoal, nome, imagem, autoridade, servidor, publicidade, propaganda, órgão público, serviço social, atividade assistencial, obra filantrópica."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dispõe sobre o exercício da profissão de Podólogo e dá outras providências.",
+            "ementaDetalhada": "Regulamentando o exercício profissional da Podologia.",
+            "keywords": "Regulamentação, profissão, Podólogo, competência, requisitos, deveres.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/303153/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/160598"
+            }
+        },
+        "relator": {
+            "nome": "FLÁVIA CARREIRO ALBUQUERQUE MORAIS",
+            "cpf": "54779537134",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/160598.jpg",
+            "sexo": "F",
+            "nascimento": "1969-04-26",
+            "local_nascimento": "Belo Horizonte - MG",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera as Leis nºs  8.429, de 2 de junho de 1992, e 1.079, de 10 de abril de 1950, e o Decreto-Lei nº 201, de 27 de fevereiro de 1967, para tipificar, como ato de improbidade administrativa e como crime de responsabilidade, a utilização da publicidade oficial para promoção pessoal.",
+            "ementaDetalhada": "",
+            "keywords": "Alteração, Lei da Improbidade Administrativa, decreto-lei federal, tipicidade, crime de responsabilidade, realização, publicidade institucional, campanha educativa, utilização, nome, símbolo, imagem, promoção, pessoal, autoridade, servidor público civil, Prefeito, Vereador.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/310382/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/204536"
+            }
+        },
+        "relator": {
+            "nome": "KIM PATROCA KATAGUIRI",
+            "cpf": "39313495864",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/204536.jpg",
+            "sexo": "M",
+            "nascimento": "1996-01-28",
+            "local_nascimento": "Salto - SP",
+            "escolaridade": "Superior Incompleto"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Obriga as instituições bancárias a prestarem informações claras sobre os descontos nos extratos dos correntistas.",
+            "ementaDetalhada": "",
+            "keywords": "Obrigatoriedade, banco, instituição financeira, fornecimento, informação, desconto, débito, extrato,  conta bancária,   cliente.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/310545/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/115188",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "MILTON ANTONIO CASQUEL MONTI",
+            "cpf": "02980372897",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74787.jpg",
+            "sexo": "M",
+            "nascimento": "1961-06-11",
+            "local_nascimento": "São Manuel - SP",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Dispõe sobre a obrigatoriedade de as instituições financeiras bancárias demonstrarem, nos extratos de movimentação de seus clientes, todos os encargos, despesas e taxas, e dá outras providências.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Obrigatoriedade, instituição financeira, bancos, informação, extrato de conta bancária, valor, tarifas bancárias, despesa, taxas, conta corrente, penalidade, infrator."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Estabelece passagem subsidiada para estudantes nos transportes coletivos intermunicipais e interestaduais e dá outras providências.",
+            "ementaDetalhada": "",
+            "keywords": "Concessão, passe estudantil, metade, valor, passagem, ônibus, transporte coletivo interestadual, transporte intermunicipal.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/316593/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/258784",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "JOSÉ DE RIBAMAR COSTA ALVES",
+            "cpf": "05464617353",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74027.jpg",
+            "sexo": "M",
+            "nascimento": "1954-06-15",
+            "local_nascimento": "Santa Inês - MA",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Concede desconto de 50% (cinqüenta por cento) na aquisição de passagem no sistema de transporte interestadual para estudantes universitários.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Concessão, desconto, metade, valor, aquisição, passagem, ônibus, transporte interestadual,  estudante universitário, apresentação, carteira estudantil."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera a Lei nº 4.737, de 15 de julho de 1965 - Código Eleitoral, para permitir o voto ao eleitor que se encontra no exterior, nas eleições para Governador,  Vice-Governador e Senador.",
+            "ementaDetalhada": "",
+            "keywords": "Alteração, Código Eleitoral, autorização, eleitor, exterior, votação, eleições, Governador, Senador.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/316870/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/104416",
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/74050"
+            }
+        },
+        "relator": {
+            "nome": "MAURÍCIO QUINTELLA MALTA LESSA",
+            "cpf": "80355633434",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74050.jpg",
+            "sexo": "M",
+            "nascimento": "1971-03-28",
+            "local_nascimento": "Maceió - AL",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Institui o voto em circunscrição eleitoral \"extra\" e dá outras providências.",
+            "situacao": "Pronta para Pauta",
+            "tipo": "Projeto de Lei",
+            "keywords": "Autorização, criação, circunscrição eleitoral, voto em trânsito, eleitor, ausência, domicílio eleitoral, exigência, organização, seção eleitoral, Estados, anterioridade, eleições, Presidente da República, Governador, Deputado Estadual, Deputado Distrital, Deputado Federal, composição, fiscalização, aplicação, Código Eleitoral, responsabilidade, Tribunal Superior Eleitoral (TSE), organização, mesa receptora."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera o caput e o inciso II do art. 22 da Lei nº 9.492, de 1997, dispondo sobre informações exigidas para registro, intimação e emissão do instrumento de protesto.",
+            "ementaDetalhada": "",
+            "keywords": "Alteração, Lei de Protesto de Títulos, exigência, dados, registro, intimação, emissão, inscrição, Cadastro Nacional de Pessoa Jurídica (CNPJ), interessado, credor, apresentante, portador, cedente, sacado, título.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/318352/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/162332"
+            }
+        },
+        "relator": {
+            "nome": "LUIZ HILOSHI NISHIMORI",
+            "cpf": "08781460910",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/162332.jpg",
+            "sexo": "M",
+            "nascimento": "1949-04-09",
+            "local_nascimento": "Marialva - PR",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Autoriza o Poder Executivo a criar o Programa de Inclusão Social da População em Situação de Rua e dá outras providências.",
+            "ementaDetalhada": "",
+            "keywords": "Autorização, Executivo, criação, Programa de Inclusão Social da População em Situação de Rua, destinação, população, estado de pobreza, habitação, rua.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/318565/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/204535"
+            }
+        },
+        "relator": {
+            "nome": "SAMIA DE SOUZA BOMFIM",
+            "cpf": "39154732867",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/204535.jpg",
+            "sexo": "F",
+            "nascimento": "1989-08-22",
+            "local_nascimento": "Presidente Prudente - SP",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera a Lei nº 7.492, de 16 de junho de 1986, para agravar penas, proibir a fiança e o recurso em lilberdade, exigir o cumprimento mínimo de metade da pena para obtenção de benefícios penais, além de especificar o tipo penal de gestão fraudulenta de instituições financeiras.",
+            "ementaDetalhada": "",
+            "keywords": "Alteração, Lei do Colarinho Branco, aumento, pena de reclusão, regime fechado, exigência, condenado, cumprimento, metade, pena, obtenção, progressão, pena, regime penitenciário, pagamento, fiança, ressarcimento, danos, concessão, liberdade provisória, obrigatoriedade, prisão preventiva, tipicidade, gestão, fraude, instituição financeira, bancos,  prejuízo, decretação, intervenção, liquidação extrajudicial, falência.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/323165/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/204472"
+            }
+        },
+        "relator": {
+            "nome": "JOSE ANTONIO DOS SANTOS MEDEIROS",
+            "cpf": "42442540134",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/204472.jpg",
+            "sexo": "M",
+            "nascimento": "1970-03-19",
+            "local_nascimento": "Caicó - RN",
+            "escolaridade": "Pós-Graduação"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera a Lei nº 9.612, de 19 de fevereiro de 1998, concedendo às emissoras de Radiodifusão Comunitária o direito de veicular conteúdos estritamente religiosos.",
+            "ementaDetalhada": "",
+            "keywords": "Alteração, Lei das Radios Comunitárias, autorização, emissora, rádio comunitária, transmissão, programa, conteúdo, religião.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/324589/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/127672",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "LINCOLN DINIZ PORTELA",
+            "cpf": "10254730191",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74585.jpg",
+            "sexo": "M",
+            "nascimento": "1953-11-03",
+            "local_nascimento": "Belo Horizonte - MG",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera a Lei nº 9.612, de 19 de fevereiro de 1998, que \"Institui o Serviço de Radiodifusão Comunitária e dá outras providências\".",
+            "situacao": null,
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei das Rádios Comunitárias, autorização, emissora, rádio, proselitismo, difusão, pensamento, religião, divisão, espaço, programação, entidade, Conselho Comunitário, igreja, instituição religiosa, sábado, domingo, inclusão, transmissão, atividade, instituição beneficente, entidade de fins filantrópicos, (ONG), sindicato, isenção, pagamento, patrocínio, limitação, tempo, propaganda, proibição, locutor, depoimento pessoal, multa, infrator."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Determina desconto de 50% e isenção nas tarifas de passagens aéreas, marítimas, fluviais e terrestres para os maiores de sessenta e cinco anos e oitenta e cinco anos respectivamente",
+            "ementaDetalhada": "",
+            "keywords": "Concessão, idoso, desconto, passagem, transporte aéreo, transporte marítimo, transporte fluvial, transporte intermunicipal, transporte interestadual, transporte internacional, comprovação, baixa renda, renda familiar.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/326706/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/258784",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "JOÃO HERRMANN NETO",
+            "cpf": "20257287868",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74781.jpg",
+            "sexo": "M",
+            "nascimento": "1946-03-07",
+            "local_nascimento": "Campinas - SP",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Concede desconto de 50% (cinqüenta por cento) na aquisição de passagem no sistema de transporte interestadual para estudantes universitários.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Concessão, desconto, metade, valor, aquisição, passagem, ônibus, transporte interestadual,  estudante universitário, apresentação, carteira estudantil."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Revoga o art. 4º da Emenda Constitucional nº 41, de 2003.",
+            "ementaDetalhada": "Revoga o dispositivo da Emenda Constitucional - Reforma da Previdência , acabando com a cobrança de contribuição previdenciária sobre os proventos dos servidores públicos aposentados (Contribuição de Inativos).",
+            "keywords": "Reforma  Previdenciária, revogação, dispositivo legal, Emenda Constitucional, extinção, incidência, cobrança, contribuição previdenciária, servidor público, aposentado, pensionista.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/328385/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/73434"
+            }
+        },
+        "relator": {
+            "nome": "ARNALDO FARIA DE SÁ",
+            "cpf": "21911452800",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/73434.jpg",
+            "sexo": "M",
+            "nascimento": "1945-12-30",
+            "local_nascimento": "São Paulo - SP",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera a Lei nº 9.656, de 3 de junho de 1998, que dispõe sobre os planos e seguros privados de assistência à saúde.",
+            "ementaDetalhada": "Dispõe sobre a cobertura de despesas de acompanhante de menor de dezoito anos,  inclusive quando se tratar de internação em  unidade de terapia intensiva ou similar.",
+            "keywords": "Alteração, Lei dos Planos de Saúde, cobertura, despesa, acompanhante, internação, hospital, menor, (UTI), exigência, prescrição médica.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/332450/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/220686"
+            }
+        },
+        "relator": {
+            "nome": "HILDELIS SILVA DUARTE JUNIOR",
+            "cpf": "01809077354",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/220686.jpg",
+            "sexo": "M",
+            "nascimento": "1986-09-15",
+            "local_nascimento": "Rio de Janeiro - RJ",
+            "escolaridade": "Doutorado Incompleto"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera os arts. 6º, 9º, 12 e 15, da Lei nº 9.492, de 10 de setembro de 1997, e acrescenta o art. 17-A ao mesmo diploma legal.",
+            "ementaDetalhada": "Define critérios para protesto de cheques e duplicatas mercantis.",
+            "keywords": "Alteração, Lei de Protesto de Títulos, necessidade, instituição financeira, bancos,  indicação, motivo, recusa, pagamento, invalidação, protesto, furto, roubo, extravio, duplicata, cheque, falta, aceitação, exigência, comprovação, documento, compra e venda, prestação de serviço, possibilidade, substituição, declaração, portador, prova, compromisso, irregularidade, tabelião, impedimento, registro, critérios, prazo, contagem, intimação, edital, ausência, localização, devedor, pedido, desistência, sustação, informação,  cartório de protesto, fax, meio eletrônico, confirmação, prazo, penalidade, infrator.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/333044/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/318352",
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/141387"
+            }
+        },
+        "relator": {
+            "nome": "ANTÔNIO EUSTÁQUIO ANDRADE FERREIRA",
+            "cpf": "15248020697",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/141387.jpg",
+            "sexo": "M",
+            "nascimento": "1953-06-18",
+            "local_nascimento": "Patos de Minas - MG",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera o caput e o inciso II do art. 22 da Lei nº 9.492, de 1997, dispondo sobre informações exigidas para registro, intimação e emissão do instrumento de protesto.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei de Protesto de Títulos, exigência, dados, registro, intimação, emissão, inscrição, Cadastro Nacional de Pessoa Jurídica (CNPJ), interessado, credor, apresentante, portador, cedente, sacado, título."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera o art. 39 da Lei nº 10.741, de 2003, que dispõe sobre o Estatuto do Idoso para permitir a gratuidade dos transportes públicos urbanos, semi-urbanos e rurais aos maiores de sessenta anos.",
+            "ementaDetalhada": "",
+            "keywords": "Alteração, Estatuto do Idoso, redução, limite de idade, beneficiário, gratuidade, transporte coletivo, ônibus, apresentação, documento, revogação, dispositivos, exigência, regulamentação, lei municipal, transporte gratuito, faixa, idade.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/333186/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/279850",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "INÁCIO FRANCISCO DE ASSIS NUNES ARRUDA",
+            "cpf": "09050752349",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74295.jpg",
+            "sexo": "M",
+            "nascimento": "1957-05-05",
+            "local_nascimento": "Fortaleza - CE",
+            "escolaridade": "Superior Incompleto"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera a Lei nº 10.741, de 1º de outubro de 2003, que \"dispõe sobre o Estatuto do Idoso e dá outras providências\", para assegurar a gratuidade dos transportes coletivos públicos rurais aos idosos maiores de sessenta e cinco anos.",
+            "situacao": "Tramitando em Conjunto",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Estatuto do Idoso, garantia, gratuidade, idoso, transporte coletivo, zona rural."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera os arts. 40 § 5º e 201 § 8º da Constituição Federal, para dispor sobre os requisitos da aposentadoria dos profissionais de educação básica.",
+            "ementaDetalhada": "Inclui como beneficiário da aposentadoria especial o profissional de educação que comprove exclusivamente tempo de efetivo exercício nas funções de administração, planejamento, inspeção, supervisão escolar e orientação educacional.  \r\nAltera, também, o parágrafo 4º do artigo 2º da Emenda Constitucional nº 41, de 2003, da Constituição Federal de 1988.",
+            "keywords": "Administração Pública, Previdência Social, inclusão, beneficiário, aposentadoria especial, categoria profissional, educação básica, tempo de serviço, exclusividade, magistério, administração escolar, inspeção escolar, supervisão escolar, orientação educacional, ensino público, ensino particular, ensino fundamental, ensino médio, educação infantil.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/334449/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/160575"
+            }
+        },
+        "relator": {
+            "nome": "ÉRIKA JUCÁ KOKAY",
+            "cpf": "22441107100",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/160575.jpg",
+            "sexo": "F",
+            "nascimento": "1957-08-15",
+            "local_nascimento": "Fortaleza - CE",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera a Lei nº 9.612, de 19 de fevereiro de 1998, estabelecendo limite para a cobertura dos sinais transmitidos pelas emissoras de Radiodifusão Comunitária.",
+            "ementaDetalhada": "Fixa a área de cobertura restrita de uma emissora de radiodifusão comunitária, limitada por um raio igual ou inferior a quinhentos metro a partir da antena transmissora.",
+            "keywords": "Alteração, Lei das Radios Comunitárias, fixação, limite máximo, cobertura, sinal, transmissão, emissora, rádio comunitária.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/335214/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/492476",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "LINCOLN DINIZ PORTELA",
+            "cpf": "10254730191",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74585.jpg",
+            "sexo": "M",
+            "nascimento": "1953-11-03",
+            "local_nascimento": "Belo Horizonte - MG",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera a Lei nº 9.612, de 19 de fevereiro de 1998, que \"institui o Serviço de Radiodifusão Comunitária e dá outras providências\", para disciplinar a denominação das entidades autorizadas a executar o Serviço de Radiodifusão Comunitária.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei das Rádios Comunitárias, proibição, utilização, sigla, denominação, rádio comunitária."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera a Lei nº 9.250, de 26 de dezembro de 1995, que altera a legislação do imposto de renda das pessoas físicas e dá outras providências, para fixar prazo e encargos financeiros relativos ao valor a restituir do imposto de renda das pessoas físicas pago a maior.",
+            "ementaDetalhada": "",
+            "keywords": "Alteração,Legislação Tributária Federal,  prazo máximo, Secretaria da Receita Federal, devolução, valor, Imposto sobre a Renda da Pessoa Física (IRPF),  mês, dezembro, exercício financeiro, apresentação, declaração negativa, acréscimo, juros, dia, atraso, restituição, limitação, percentual, desnecessidade, processo, investigação, retificação, declaração de rendimento, tributação.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/336532/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/220638"
+            }
+        },
+        "relator": {
+            "nome": "ANTONIO CARLOS RODRIGUES",
+            "cpf": "19990448868",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/220638.jpg",
+            "sexo": "M",
+            "nascimento": "1950-05-17",
+            "local_nascimento": "São Paulo - SP",
+            "escolaridade": "Pós-Graduação"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Institui o título de eleitor na forma de cartão magnético e a possibilidade de voto em qualquer seção eleitoral estabelecida em território nacional e estabelece o rodízio obrigatório para presidentes e mesários da Mesa Receptora.",
+            "ementaDetalhada": "Altera as Leis nºs 7.444, de 1995; 9.504, de 1997 e 4.737, de 1965.",
+            "keywords": "Alteração, Lei do Processamento Eletrônico do Eleitorado, criação, título de eleitor, cartão magnético, senha.  \r\n_Alteração, Lei das Eleições, Código Eleitoral, autorização, eleitor, voto em trânsito, votação, seção eleitoral, opção, justificação, ausência, funcionamento, urna eletrônica, responsabilidade, Tribunal Superior Eleitoral (TSE), manutenção, base de dados, consulta, validade, dados, título de eleitor, limitação, quantidade, nomeação, membros, mesa receptora, realização, rodízio, mesário.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/338659/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/104986",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "FLORISVALDO FIER",
+            "cpf": "29938520944",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/73459.jpg",
+            "sexo": "M",
+            "nascimento": "1950-11-12",
+            "local_nascimento": "Rolândia - PR",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Dispõe sobre a obrigatoriedade de fotografia no título de eleitor.",
+            "situacao": "Pronta para Pauta",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei do Processamento Eletrônico do Eleitorado, alistamento eleitoral, obrigatoriedade, fotografia, título de eleitor, impressão digital, dados, cadastro, Justiça Eleitoral."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera dispositivos do art. 36 da Lei n° 9.394, de 20 de dezembro de 1996, que estabelece as diretrizes e bases da educação nacional.",
+            "ementaDetalhada": "Inclui  o ensino da Filosofia, da Sociologia e da Psicologia como disciplinas obrigatórias durante o ensino médio.",
+            "keywords": "Alteração, LDB, inclusão, disciplina escolar, Filosofia, Sociologia, Psicologia, currículo escolar, ensino médio.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/340480/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/152605"
+            }
+        },
+        "relator": {
+            "nome": "GLAUBER DE MEDEIROS BRAGA",
+            "cpf": "09740756719",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/152605.jpg",
+            "sexo": "M",
+            "nascimento": "1982-06-26",
+            "local_nascimento": "Nova Friburgo - RJ",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dispõe sobre o procedimento de  desconsideração de pessoa,  ato ou negócio jurídico pelas autoridades fiscais competentes, e dá outras providências.",
+            "ementaDetalhada": "",
+            "keywords": "Procedimento administrativo, autoridade fiscal,  Secretaria da Receita Federal, Incidente de desconsideração da personalidade jurídica, , ato jurídico, negócio jurídico, reconhecimento, relação de emprego, trabalho, cobrança, tributo, imposto devido, penalidade, encargo, dispensa, autorização judicial, fraude, insuficiência, prestação de serviços, prestador de serviço, profissional liberal, legitimidade, ingresso, juizo, sindicato, representante judicial,  Ministério Público do Trabalho, tributação.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/340670/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/89536"
+            }
+        },
+        "relator": {
+            "nome": "PAULO FERNANDO MELO DA COSTA",
+            "cpf": "27972380104",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/89536.jpg",
+            "sexo": "M",
+            "nascimento": "1967-06-11",
+            "local_nascimento": "Brasília - DF",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera a Lei nº 10.741, de 1º de outubro de 2003, que dispõe sobre o Estatuto do Idoso.",
+            "ementaDetalhada": "Reserva vagas em todo tipo de transporte coletivo interestadual para idosos com renda igual ou inferior a 2 (dois) salários mínimos, incluindo o transporte áereo.",
+            "keywords": "Alteração, Estatuto do Idoso, reserva, vaga, idoso, baixa renda, desconto, gratuidade, bilhete, passagem, transporte coletivo interestadual, transporte rodoviário, transporte ferroviário, transporte aquaviário, transporte aéreo, passagem aérea.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/340773/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/258784",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "HOMERO BARBOSA NETO",
+            "cpf": "07640902835",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/141449.jpg",
+            "sexo": "M",
+            "nascimento": "1966-09-19",
+            "local_nascimento": "Santa Rita do Passa Quatro - SP",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Concede desconto de 50% (cinqüenta por cento) na aquisição de passagem no sistema de transporte interestadual para estudantes universitários.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Concessão, desconto, metade, valor, aquisição, passagem, ônibus, transporte interestadual,  estudante universitário, apresentação, carteira estudantil."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Institui o Código Federal de Bem-Estar Animal.",
+            "ementaDetalhada": "",
+            "keywords": "_ Código Federal de Bem-Estar Animal, experimentação, produção animal, proteção, sanidade animal, doença animal, redução, maus-tratos, controle, população, registro, identificação, cão, gato, reprodução, recolhimento, destinação, adestramento, criação, adoção, animal doméstico, zoonoses urbanas, vigilância, medidas zoosanitárias, abate, produto animal, bovinocultura, suinocultura, avicultura, eutanásia, penalidade, infrator.\r\n_ Critérios, utilização, animal, pesquisa científica.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/341067/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/74111"
+            }
+        },
+        "relator": {
+            "nome": "PEDRO HENRY NETO",
+            "cpf": "17506867168",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74111.jpg",
+            "sexo": "M",
+            "nascimento": "1957-04-19",
+            "local_nascimento": "Santo André - SP",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Institui a obrigatoriedade de identificação dos apostadores das loterias e concursos de prognósticos administrados pela Caixa Econômica Federal.",
+            "ementaDetalhada": "",
+            "keywords": "Obrigatoriedade, bilhete de loteria, identificação, dados, Cadastro de Pessoas Físicas (CPF), apostador, concurso de prognóstico, loteria, Caixa Econômica Federal (CEF), entrega, prêmio.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/343463/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/105313",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "MARCELO DE ARAÚJO MELO",
+            "cpf": "17030927168",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/141494.jpg",
+            "sexo": "M",
+            "nascimento": "1958-10-11",
+            "local_nascimento": "Luziânia - GO",
+            "escolaridade": "Ensino Médio"
+        },
+        "proposicao_principal": {
+            "ementa": "Garante ao acertador de qualquer tipo de jogo ou aposta, realizado ou autorizado pela loteria federal e/ou loterias estaduais, o direito ao anonimato com relação a identificação do seu nome e imagem em anúncios e/ou informativos.",
+            "situacao": "Tramitando em Conjunto",
+            "tipo": "Projeto de Lei",
+            "keywords": "Garantia, omissão, identificação, ganhador, loteria, concurso de prognóstico, proibição, utilização, nome, imagem, anúncio, propaganda, penalidade, multa, infrator."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera a Lei n.º 9.263, de 12 de janeiro de 1996, que regula o § 7º do art. 226 da Constituição Federal, que trata do planejamento familiar, estabelece penalidades e dá outras providências.",
+            "ementaDetalhada": "Estabelece a oferta de pelo menos três métodos de contracepção reversíveis, um método irreversível para homem e um para mulher. Possibilita a esterilização voluntária a partir dos 23 (vinte e três) anos.",
+            "keywords": "Alteração, Lei do Planejamento Familiar, inclusão, programa, disciplina escolar, educação sexual, ensino fundamental, ensino médio, oferecimento, método, concepção, homem, mulher, redução, limite de idade, esterelização, ligadura de trompas, vasectomia, dispensa, consentimento, cônjuge, companheiro, companheira, penalidade, gestor, autoridade municipal, descumprimento, prazo determinado, atendimento, planejamento familiar, pena, médico.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/343759/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2305724",
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/178929"
+            }
+        },
+        "relator": {
+            "nome": "DIEGO ALEXSANDER GONCALO PAULA GARCIA",
+            "cpf": "04702291955",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/178929.jpg",
+            "sexo": "M",
+            "nascimento": "1984-10-10",
+            "local_nascimento": "Bandeirantes - PR",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera a Lei nº 9.263, de 12 de janeiro de 1996, que trata do planejamento familiar, para facilitar o acesso da mulher a procedimentos de esterilização cirúrgica",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei do Planejamento Familiar, autorização, esterilização cirúrgica, posterioridade, período, puerpério, mulher. _Revogação, dispositivo legal, Lei do Planejamento Familiar, vigência, Sociedade conjugal, esterilização cirúrgica, consentimento, total, conjuge,"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Assegura reintegração aos trabalhadores do Banco do Nordeste do Brasil - BNB demitidos no período de 1995 a 2003.",
+            "ementaDetalhada": "",
+            "keywords": "Garantia, reintegração, retorno, emprego, ex-servidor, despedida injusta, demissão, Banco do Nordeste do Brasil (BNB), banco oficial.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/344045/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/220700"
+            }
+        },
+        "relator": {
+            "nome": "FLORENTINO ALVES VERAS NETO",
+            "cpf": "32744811300",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/220700.jpg",
+            "sexo": "M",
+            "nascimento": "1969-10-05",
+            "local_nascimento": "Buriti dos Lopes - PI",
+            "escolaridade": null
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dá nova redação ao  § 5º do art. 40 e ao § 8º do art. 201 da Constituição Federal.",
+            "ementaDetalhada": "Inclui todos os profissionais da educação escolar que comprove exclusivamente tempo de efetivo exercício nas funções de magistério de docência ou de suporte pedagógico à docência como beneficiário da aposentadoria especial, com redução de 5 (cinco) anos no tempo de contribuição e na idade.",
+            "keywords": "Constituição Federal (1988), Redução, Tempo de contribuição, requisito, aposentadoria voluntária, aposentadoria especial, profissional de educação, comprovação, exclusividade, atividade, magistério, professor, Especialista em educação, Orientador educacional.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/344176/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/334449",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "JOSÉ ABELARDO GUIMARÃES CAMARINHA",
+            "cpf": "38233754820",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/141463.jpg",
+            "sexo": "M",
+            "nascimento": "1952-03-22",
+            "local_nascimento": "São José do Rio Pardo - SP",
+            "escolaridade": "Ensino Técnico"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera os arts. 40 § 5º e 201 § 8º da Constituição Federal, para dispor sobre os requisitos da aposentadoria dos profissionais de educação básica.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Proposta de Emenda à Constituição",
+            "keywords": "Administração Pública, Previdência Social, inclusão, beneficiário, aposentadoria especial, categoria profissional, educação básica, tempo de serviço, exclusividade, magistério, administração escolar, inspeção escolar, supervisão escolar, orientação educacional, ensino público, ensino particular, ensino fundamental, ensino médio, educação infantil."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dispõe sobre a proibição de estabelecimento de horários especiais.",
+            "ementaDetalhada": "",
+            "keywords": "Proibição, criação, horário especial, horário de verão.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/344544/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/178929"
+            }
+        },
+        "relator": {
+            "nome": "DIEGO ALEXSANDER GONCALO PAULA GARCIA",
+            "cpf": "04702291955",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/178929.jpg",
+            "sexo": "M",
+            "nascimento": "1984-10-10",
+            "local_nascimento": "Bandeirantes - PR",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Institui o  Dia  Nacional  de  reflexão  do \"Cantando as Diferenças\"",
+            "ementaDetalhada": "A ser comemorado no dia 10 de agosto, buscando refletir sobre as diversidades nos aspectos sociais, culturais, individuais e do meio ambiente.",
+            "keywords": "Criação, Dia Nacional de Reflexão do Cantando as Diferenças.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/344640/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/74041"
+            }
+        },
+        "relator": {
+            "nome": "LUIZ ALBUQUERQUE COUTO",
+            "cpf": "02043033468",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74041.jpg",
+            "sexo": "M",
+            "nascimento": "1945-02-13",
+            "local_nascimento": "Soledade - PB",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera disposições da Lei nº 9.492, de 10 de setembro de 1997 e da Lei nº 10.169, de 29 de dezembro de 2000, e dá outras providências.",
+            "ementaDetalhada": "Estabelece normas relativas ao protesto de títulos e seu cancelamento, bem como a cobrança dos emolumentos referentes ao serviço.",
+            "keywords": "Alteração, Lei de Protesto de Títulos, autorização, Administração Pública, utilização, protesto de títulos, ato extrajudicial, recebimento, crédito tributário, créditos, contas, bens, serviços públicos, inclusão, título, cobrança, procedimento sumário, ação monitória, processo de execução, processo  falimentar, remessa, documento, comunicação eletrônica, fixação, juros, correção monetária, tabela, cálculo, débitos, Tribunal de Justiça, Estados, aumento, prazo, dia útil, Tabelião,  lavratura, intimação, devedor, meio eletrônico, limitação, utilização, edital, pessoa desconhecida, publicação.  \r\n_ Autorização, pagamento, título, protesto, Cartório de Protesto, agência bancária, caixa eletrônico, dinheiro, cheque, proibição, exigência, cheque visado, cheque administrativo, restrição, lavratura, protesto de títulos, emissão, duplicata, letra de câmbio, \r\ncancelamento, requerimento, credor, quitação, baixa, nome, Serviço de Proteção ao Crédito, implantação, Serviço Central de Informações de Protesto de Titulos, acesso, usuário, (Internet).   \r\n_ Alteração, Lei de Emolumentos, dispensa, credor, pagamento, despesa, cartório, obrigação, devedor, exigência, valor, emolumentos, título executivo extrajudicial.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/344789/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/318352",
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/141481"
+            }
+        },
+        "relator": {
+            "nome": "LEANDRO JOSÉ MENDES SAMPAIO FERNANDES",
+            "cpf": "24488445187",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/141481.jpg",
+            "sexo": "M",
+            "nascimento": "1960-10-25",
+            "local_nascimento": "Petrópolis - RJ",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera o caput e o inciso II do art. 22 da Lei nº 9.492, de 1997, dispondo sobre informações exigidas para registro, intimação e emissão do instrumento de protesto.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei de Protesto de Títulos, exigência, dados, registro, intimação, emissão, inscrição, Cadastro Nacional de Pessoa Jurídica (CNPJ), interessado, credor, apresentante, portador, cedente, sacado, título."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dispõe sobre o Estatuto do Nascituro e dá outras providências.",
+            "ementaDetalhada": "Altera o Decreto-Lei nº 2.848, de 1940 e a Lei nº 8.072, de 1990.",
+            "keywords": "Criação, Estatuto do Nascituro, proteção, nascituro, clonagem, fertilização in vitro, direito à vida, direitos fundamentais, atendimento, (SUS), prioridade, mãe, gestante, mulher, exame pré-natal, legitimidade, sucessão, crime, ação penal pública incondicionada, penalidade, discriminação, feto, gravidez, vítima, violência, estupro, garantia, pensão alimentícia, prioridade, adoção.  \r\n_ Alteração, Código Penal, Lei dos Crimes Hediondos, agravação penal, aumento, pena de reclusão, autor, aborto.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/345103/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/226075"
+            }
+        },
+        "relator": {
+            "nome": "PRISCILA BEZERRA DA COSTA",
+            "cpf": "01023067374",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/226075.jpg",
+            "sexo": "F",
+            "nascimento": "1984-09-12",
+            "local_nascimento": "Fortaleza - CE",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera a Lei nº 5.991, de 17 de setembro de 1973, e dá outras providências.",
+            "ementaDetalhada": "Inclui o bloqueador, o protetor e o filtro solar no conceito de medicamentos.",
+            "keywords": "Alteração, Lei de Controle Sanitário de Medicamentos, equiparação, , protetor solar, medicamento, redução, Câncer de pele, alíquota zero, Imposto sobre Produtos Industrializados (IPI), Benefício fiscal, tributação.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/345856/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/220674"
+            }
+        },
+        "relator": {
+            "nome": "ALESSANDRA HABER CARVALHO SANTOS",
+            "cpf": "94578044220",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/220674.jpg",
+            "sexo": "F",
+            "nascimento": "1988-09-15",
+            "local_nascimento": "Belém - PA",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera a Lei nº 10.406, de 10 de janeiro de 2002 - Código Civil, para dispor sobre  o contrato civil de união homoafetiva.",
+            "ementaDetalhada": "",
+            "keywords": "Alteração, Código Civil, possibilidade, união homoafetiva, utilização, contrato, definição, bens patrimoniais, companheiro, companheira, garantia, segredo de justiça, processo judicial, equiparação, legislação, direitos, sucessão, herança.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/346155/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/178866"
+            }
+        },
+        "relator": {
+            "nome": "LUIZIANNE DE OLIVEIRA LINS",
+            "cpf": "38208563315",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/178866.jpg",
+            "sexo": "F",
+            "nascimento": "1968-11-18",
+            "local_nascimento": "Fortaleza - CE",
+            "escolaridade": "Mestrado Incompleto"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Estabelece em 50% do valor integral, a passagem paga por estudantes e professores do ensino superior para participação em cursos de  aperfeiçoamento, especialização, pós-graduação e congressos.",
+            "ementaDetalhada": "",
+            "keywords": "Garantia, percentual, desconto, abatimento, passagem, transporte interestadual, inclusão, ônibus, aeronave, barco, trem, professor, estudante, educação superior,  participação, curso de especialização, aperfeiçoamento, curso de pós graduação, congresso, exigência, comprovação.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/347041/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/258784",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "REBECCA MARTINS GARCIA",
+            "cpf": "43935117272",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/141525.jpg",
+            "sexo": "F",
+            "nascimento": "1973-04-28",
+            "local_nascimento": "Manaus - AM",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Concede desconto de 50% (cinqüenta por cento) na aquisição de passagem no sistema de transporte interestadual para estudantes universitários.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Concessão, desconto, metade, valor, aquisição, passagem, ônibus, transporte interestadual,  estudante universitário, apresentação, carteira estudantil."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Determina a obrigatoriedade das empresas concessionárias de transporte coletivo terrestre de passageiros e autarquias, a aceitarem passagem escolar para transporte nos finais de semana e feriados.",
+            "ementaDetalhada": "",
+            "keywords": "Obrigatoriedade, concessionária, empresa de transportes, transporte coletivo urbano,  ônibus, recebimento, passe estudantil, estudante, professor, fim de semana, feriados, penalidade, infrator.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/348318/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/258784",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "MANUELA PINTO VIEIRA D'ÁVILA",
+            "cpf": "96460555087",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/141492.jpg",
+            "sexo": "F",
+            "nascimento": "1981-08-18",
+            "local_nascimento": "Porto Alegre - RS",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Concede desconto de 50% (cinqüenta por cento) na aquisição de passagem no sistema de transporte interestadual para estudantes universitários.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Concessão, desconto, metade, valor, aquisição, passagem, ônibus, transporte interestadual,  estudante universitário, apresentação, carteira estudantil."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dá nova redação ao § 4º do art. 201 da Constituição Federal para vincular o reajuste dos benefícios previdenciários à variação do salário mínimo, e fixa em dez salaríos míminos o valor limite máximo dos benefícios pagos pelo Regime Geral da Previdência Social.",
+            "ementaDetalhada": "",
+            "keywords": "Previdência Social, vinculação, reajuste, valor, benefício previdenciário, data, índice, aumento, salário mínimo, fixação, limite máximo, benefício, Regime Geral de Previdência Social (RGPS), proventos, aposentadoria,  pensões.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/348335/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/204535"
+            }
+        },
+        "relator": {
+            "nome": "SAMIA DE SOUZA BOMFIM",
+            "cpf": "39154732867",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/204535.jpg",
+            "sexo": "F",
+            "nascimento": "1989-08-22",
+            "local_nascimento": "Presidente Prudente - SP",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Determina às companhias aéreas que atuem no território nacional, que, durante a baixa temporada, concedam desconto de 50% (cinquenta por cento) no preço da passagem a alunos e professores.",
+            "ementaDetalhada": "Período compreendido de 1º de março a 30 de junho e de 1º de agosto a 30 de outubro de cada ano.",
+            "keywords": "Obrigatoriedade, empresa de transporte aéreo, concessão,  percentual, desconto, passagem aérea, estudante, professor, período, comprovação,  exercício profissional, matrícula, aluno.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/348415/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/258784",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "RAIMUNDO SABINO CASTELO BRANCO MAUÉS",
+            "cpf": "22949461204",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/141522.jpg",
+            "sexo": "M",
+            "nascimento": "1964-08-31",
+            "local_nascimento": "Manaus - AM",
+            "escolaridade": "Superior Incompleto"
+        },
+        "proposicao_principal": {
+            "ementa": "Concede desconto de 50% (cinqüenta por cento) na aquisição de passagem no sistema de transporte interestadual para estudantes universitários.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Concessão, desconto, metade, valor, aquisição, passagem, ônibus, transporte interestadual,  estudante universitário, apresentação, carteira estudantil."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Concede desconto de 50% (cinqüenta por cento) aos estudantes do ensino fundamental, médio e superior no transporte coletivo rodoviário que interliga municípios vizinhos de estados diferentes.",
+            "ementaDetalhada": "",
+            "keywords": "Concessão, estudante, ensino fundamental, ensino médio, educação superior, passe estudantil, desconto, metade, valor, passagem, transporte coletivo, ônibus, transporte intermunicipal, diferença, Estados.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/349266/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/258784",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "SANDRO ANTONIO SCODRO",
+            "cpf": "00279046871",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/73676.jpg",
+            "sexo": "M",
+            "nascimento": "1958-12-31",
+            "local_nascimento": "Ribeirão Preto - SP",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Concede desconto de 50% (cinqüenta por cento) na aquisição de passagem no sistema de transporte interestadual para estudantes universitários.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Concessão, desconto, metade, valor, aquisição, passagem, ônibus, transporte interestadual,  estudante universitário, apresentação, carteira estudantil."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Revoga a Lei Complementar nº 110, de 29 de junho de 2001, que institui contribuições sociais, autoriza créditos de complementos de atualização monetária em contas vinculadas do Fundo de Garantia do Tempo de Serviço - FGTS e dá outras providências.",
+            "ementaDetalhada": "",
+            "keywords": "Revogação, Lei  de Atualização Monetária do FGTS, pagamento, complementação, créditos, Conta vinculada do FGTS.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/349531/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/165470"
+            }
+        },
+        "relator": {
+            "nome": "RODRIGO SANTANA VALADARES",
+            "cpf": "04389715585",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/165470.jpg",
+            "sexo": "M",
+            "nascimento": "1989-08-06",
+            "local_nascimento": "Aracaju - SE",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dá nova redação ao art. 12 da Lei nº 9.492,  de 10  de  setembro de 1997,  que  \"Define competência, regulamenta os serviços concernentes ao protesto de títulos e outros  documentos  de  dívida e dá outras providências\".",
+            "ementaDetalhada": "Amplia para 30 (trinta) dias o prazo para o registro do protesto de títulos, contados da data da notificação pelo cartorio do devedor do título ou documento de dívida.",
+            "keywords": "Alteração, Lei de Protesto de Títulos, ampliação, prazo, registro, protesto, título, documento, dívida, contagem, início, data, notificação, cartório.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/349633/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/344789",
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/141509"
+            }
+        },
+        "relator": {
+            "nome": "MIGUEL CORRÊA DA SILVA JÚNIOR",
+            "cpf": "03053788640",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/141509.jpg",
+            "sexo": "M",
+            "nascimento": "1978-06-11",
+            "local_nascimento": "Belo Horizonte - MG",
+            "escolaridade": "Pós-Graduação"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera disposições da Lei nº 9.492, de 10 de setembro de 1997 e da Lei nº 10.169, de 29 de dezembro de 2000, e dá outras providências.",
+            "situacao": null,
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei de Protesto de Títulos, autorização, Administração Pública, utilização, protesto de títulos, ato extrajudicial, recebimento, crédito tributário, créditos, contas, bens, serviços públicos, inclusão, título, cobrança, procedimento sumário, ação monitória, processo de execução, processo  falimentar, remessa, documento, comunicação eletrônica, fixação, juros, correção monetária, tabela, cálculo, débitos, Tribunal de Justiça, Estados, aumento, prazo, dia útil, Tabelião,  lavratura, intimação, devedor, meio eletrônico, limitação, utilização, edital, pessoa desconhecida, publicação.  \r\n_ Autorização, pagamento, título, protesto, Cartório de Protesto, agência bancária, caixa eletrônico, dinheiro, cheque, proibição, exigência, cheque visado, cheque administrativo, restrição, lavratura, protesto de títulos, emissão, duplicata, letra de câmbio, \r\ncancelamento, requerimento, credor, quitação, baixa, nome, Serviço de Proteção ao Crédito, implantação, Serviço Central de Informações de Protesto de Titulos, acesso, usuário, (Internet).   \r\n_ Alteração, Lei de Emolumentos, dispensa, credor, pagamento, despesa, cartório, obrigação, devedor, exigência, valor, emolumentos, título executivo extrajudicial."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dá nova redação ao § 3º do Art. 39 da Constituição Federal.",
+            "ementaDetalhada": "Garante ao servidor de cargo em comissão de livre nomeação e exoneração, direito a aviso prévio, seguro desemprego, FGTS, entre outros.",
+            "keywords": "Administração Pública, garantia, servidor, cargo em comissão, cargo de livre nomeação, trabalho temporário, seguro-desemprego, aviso prévio, Fundo de Garantia do Tempo de Serviço (FGTS), proibição, discriminação, pessoa portadora de deficiência, equiparação, trabalhador, vínculo empregatício.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/349704/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/4931"
+            }
+        },
+        "relator": {
+            "nome": "IZALCI LUCAS FERREIRA",
+            "cpf": "06801480197",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/4931.jpg",
+            "sexo": "M",
+            "nascimento": "1956-04-07",
+            "local_nascimento": "Araújos - MG",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera o art. 473, inciso IV, da Consolidação das Leis do Trabalho - CLT, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, a fim de permitir a ausência ao trabalho a cada doação voluntária de sangue devidamente comprovada, excluindo o limite de um dia, em cada 12 meses de trabalho, previsto atualmente.",
+            "ementaDetalhada": "",
+            "keywords": "Alteração, Consolidação das Leis do Trabalho (CLT), autorização, empregado público, servidor público, ausência, falta ao serviço, doação de sangue, exigência, comprovação.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/350894/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/340212",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "MANUELA PINTO VIEIRA D'ÁVILA",
+            "cpf": "96460555087",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/141492.jpg",
+            "sexo": "F",
+            "nascimento": "1981-08-18",
+            "local_nascimento": "Porto Alegre - RS",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Concede vantagens a quem for doador de sangue para a rede pública de hemocentros, em todo o país.",
+            "situacao": "Tramitando em Conjunto",
+            "tipo": "Projeto de Lei",
+            "keywords": "Concessão, benefício, doação de sangue, servidor público civil, licença-prêmio, trabalhador, empresa privada, férias proporcionais, desempregado, acréscimo, bônus, pontuação, concurso público."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Identifica pelo número de inscrição no Cadastro de Pessoas Físicas do Ministério da Fazenda, o apostador de jogos de loteria explorados pela Caixa Econômica Federal  e dá outras providências.",
+            "ementaDetalhada": "Determina a identificação do apostador da Loteria Federal, Loteca, Lotogol, Mega-Sena, Super-Sena, Quina, Lotomania, e outras.",
+            "keywords": "Identificação, bilhete de loteria, Cadastro de Pessoas Físicas (CPF), apostador, concurso de prognóstico, loteria, Caixa Econômica Federal (CEF), inexistência, prescrição, prêmio, correção monetária, índice, caderneta de poupança.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/350962/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/105313",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "CARLOS GOMES BEZERRA",
+            "cpf": "00834939134",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/141401.jpg",
+            "sexo": "M",
+            "nascimento": "1941-11-04",
+            "local_nascimento": "Chapada dos Guimarães - MT",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Garante ao acertador de qualquer tipo de jogo ou aposta, realizado ou autorizado pela loteria federal e/ou loterias estaduais, o direito ao anonimato com relação a identificação do seu nome e imagem em anúncios e/ou informativos.",
+            "situacao": "Tramitando em Conjunto",
+            "tipo": "Projeto de Lei",
+            "keywords": "Garantia, omissão, identificação, ganhador, loteria, concurso de prognóstico, proibição, utilização, nome, imagem, anúncio, propaganda, penalidade, multa, infrator."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dispõe sobre as placas comemorativas da inauguração de obras públicas de qualquer natureza.",
+            "ementaDetalhada": "Torna obrigatória a  inclusão,  nas placas comemorativas de inauguração de obras públicas, dos nomes de governos anteriores que participaram diretamente na construção das mesmas.",
+            "keywords": "Obrigatoriedade, placa comemorativa, inauguração, obra pública, utilização,  recursos públicos,  inclusão, nome, agente público, gestor, participação, construção.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/351240/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/293705",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "OTAVIO SANTOS SILVA LEITE",
+            "cpf": "20163452504",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/141515.jpg",
+            "sexo": "M",
+            "nascimento": "1961-07-29",
+            "local_nascimento": "Aracaju - SE",
+            "escolaridade": "Mestrado Incompleto"
+        },
+        "proposicao_principal": {
+            "ementa": "Acrescenta o inciso VII ao art. 11 da Lei nº 8.429, de 2 de junho de 1992, que trata da improbidade administrativa, para proibir a publicidade de órgãos públicos realizada em desconformidade com o § 1º do art. 37 da Constituição Federal.",
+            "situacao": "Tramitando em Conjunto",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei da Improbidade Administrativa, inclusão, publicidade institucional, órgão público, programa, obra pública, nome, símbolo, imagem, autoridade, servidor, promoção, pessoal."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Estabelece princípios e diretrizes para as ações voltadas para a educação nutricional e segurança alimentar e nutricional da população e dá outras providências.",
+            "ementaDetalhada": "",
+            "keywords": "Educação, nutrição, segurança alimentar, população, qualidade, rótulo, produto alimentício, alimentação,  prioridade, informação, campanha educativa, incentivo, aleitamento materno, lactente, mulher, idoso, portador, doença crônica, prevenção, doença, obesidade, carência, alimentos, amamentação, controle, merenda escolar, combate, desnutrição.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/353982/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/205550"
+            }
+        },
+        "relator": {
+            "nome": "JORGE BRAZ DE OLIVEIRA",
+            "cpf": "35201487734",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/205550.jpg",
+            "sexo": "M",
+            "nascimento": "1953-07-13",
+            "local_nascimento": "Palma - MG",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996, para introduzir modificações na Lei de Diretrizes e Bases da Educação.",
+            "ementaDetalhada": "Estabelece que a União deverá assumir juntamente com os Estados, o Distrito Federal  e os Municípios, em percentuais iguais, os custos do transporte escolar da rede pública.",
+            "keywords": "Alteração, LDB, competência, União Federal, divisão, custo, transporte escolar, aluno, rede pública, ensino, Estados, Distrito Federal, Municípios.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/354129/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/178843"
+            }
+        },
+        "relator": {
+            "nome": "MARX BELTRÃO LIMA SIQUEIRA",
+            "cpf": "02696564485",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/178843.jpg",
+            "sexo": "M",
+            "nascimento": "1979-11-28",
+            "local_nascimento": "Maceió - AL",
+            "escolaridade": "Superior"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Altera a Lei nº 7.210, de 11 de julho de 1984 - Lei de Execução Penal, para criar a obrigação de os presos condenados produzirem seu próprio sustento alimentar.",
+            "ementaDetalhada": "",
+            "keywords": "Alteração, Lei de Execução Penal, preso, condenado, produção, alimentos, subsistência, consumo próprio, responsabilidade, estabelecimento penal, penitenciária, proibição, prestação de serviço, trabalho, instituição particular, empresa privada.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/354980/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/204472"
+            }
+        },
+        "relator": {
+            "nome": "JOSE ANTONIO DOS SANTOS MEDEIROS",
+            "cpf": "42442540134",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/204472.jpg",
+            "sexo": "M",
+            "nascimento": "1970-03-19",
+            "local_nascimento": "Caicó - RN",
+            "escolaridade": "Pós-Graduação"
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Determina a obrigatoriedade de cobertura da cirurgia de vasectomia pelo Sistema Único de Saúde e pelas empresas de planos de saúde.",
+            "ementaDetalhada": "",
+            "keywords": "Obrigatoriedade, (SUS), empresa, plano de saúde, pagamento, vasectomia, planejamento familiar, sexo masculino.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/355088/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/343759",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "WALDEMIR MOKA MIRANDA DE BRITTO",
+            "cpf": "14332604172",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/73456.jpg",
+            "sexo": "M",
+            "nascimento": "1951-10-10",
+            "local_nascimento": "Bela Vista - MS",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera a Lei n.º 9.263, de 12 de janeiro de 1996, que regula o § 7º do art. 226 da Constituição Federal, que trata do planejamento familiar, estabelece penalidades e dá outras providências.",
+            "situacao": null,
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei do Planejamento Familiar, inclusão, programa, disciplina escolar, educação sexual, ensino fundamental, ensino médio, oferecimento, método, concepção, homem, mulher, redução, limite de idade, esterelização, ligadura de trompas, vasectomia, dispensa, consentimento, cônjuge, companheiro, companheira, penalidade, gestor, autoridade municipal, descumprimento, prazo determinado, atendimento, planejamento familiar, pena, médico."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Obriga a empresa concessionária ou permissionária de serviço público a fornecer ao consumidor fatura mensal referente aos serviços fornecidos, de forma discriminada.",
+            "ementaDetalhada": "",
+            "keywords": "Obrigatoriedade, concessionária, permissionária, serviços públicos, discriminação, contas, fatura, consumidor, critérios, tarifação individual, consumo, unidade de medida, incidência, tributos, inclusão, telefonia, telefone, data, horário, utilização, duração, preço, ligação telefônica, penalidade, infrator. Código de Defesa do Consumidor.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/355750/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/586076",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "ULDURICO ALVES PINTO",
+            "cpf": "20200420615",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/73809.jpg",
+            "sexo": "M",
+            "nascimento": "1953-01-14",
+            "local_nascimento": "Medeiros Neto - BA",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera o inciso IV do art. 3º da Lei nº 9.472, de 16 de julho de 1997, para aprimorar o direito à informação sobre as condições de utilização dos créditos constituídos em modalidades de pagamento antecipado.",
+            "situacao": "Aguardando Parecer",
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei Geral das Telecomunicações, disponibilidade, informações, sítio (Internet), antecipação, pagamento, telefone celular, utilização, critérios, tarifas, preço, telefonia, empresa de telecomunicações."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dá nova redação ao parágrafo único do art. 6º e ao parágrafo único do art. 9º, ambos da Lei nº 9.263, de 1996, que regula o § 7º do art. 226 da Constituição Federal.",
+            "ementaDetalhada": "Proibindo a distribuição, a recomendação pelo SUS e a comercialização pelas farmácias de método de anticoncepção de emergência - AE (pílula do dia seguinte).",
+            "keywords": "Alteração, Lei do Planejamento Familiar, proibição, (SUS), recomendação, utilização, distribuição gratuita, anticoncepcional, mulher, emergência, comercialização, venda a varejo, farmácia, autorização, prescrição médica, receita médica, esclarecimentos, riscos, critérios, legislação penal.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/357240/autores",
+                "uriPropPrincipal": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/343759",
+                "uriUltimoRelator": null
+            }
+        },
+        "autor": {
+            "nome": "LUIZ CARLOS BASSUMA",
+            "cpf": "25405250910",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/74059.jpg",
+            "sexo": "M",
+            "nascimento": "1956-08-08",
+            "local_nascimento": "Curitiba - PR",
+            "escolaridade": "Superior"
+        },
+        "proposicao_principal": {
+            "ementa": "Altera a Lei n.º 9.263, de 12 de janeiro de 1996, que regula o § 7º do art. 226 da Constituição Federal, que trata do planejamento familiar, estabelece penalidades e dá outras providências.",
+            "situacao": null,
+            "tipo": "Projeto de Lei",
+            "keywords": "Alteração, Lei do Planejamento Familiar, inclusão, programa, disciplina escolar, educação sexual, ensino fundamental, ensino médio, oferecimento, método, concepção, homem, mulher, redução, limite de idade, esterelização, ligadura de trompas, vasectomia, dispensa, consentimento, cônjuge, companheiro, companheira, penalidade, gestor, autoridade municipal, descumprimento, prazo determinado, atendimento, planejamento familiar, pena, médico."
+        }
+    },
+    {
+        "proposicao": {
+            "ementa": "Dispõe sobre a prática de tatuagem e \"piercing\".",
+            "ementaDetalhada": "",
+            "keywords": "Funcionamento, estabelecimento comercial, profissional liberal, aplicação, tatuagem,  piercing, apresentação, cadastro, cliente, identificação, estabelecimento, livro, registro, acidentes, condições sanitárias, critérios, higiene, limpeza, esterilização, utilização, agulha, produto descartável, proibição, menor, multa, infrator.",
+            "uris": {
+                "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/357633/autores",
+                "uriPropPrincipal": null,
+                "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/204455"
+            }
+        },
+        "relator": {
+            "nome": "LUIZ EDUARDO CARNEIRO DA SILVA DE SOUZA LIMA",
+            "cpf": "07616393730",
+            "foto": "https://www.camara.leg.br/internet/deputado/bandep/204455.jpg",
+            "sexo": "M",
+            "nascimento": "1977-12-10",
+            "local_nascimento": "Rio de Janeiro - RJ",
+            "escolaridade": "Superior"
+        }
+    }
+]

@@ -9,3 +9,4 @@ app/matcher/Coleta.csv
 ./*.csv
 .venv/
 app/ML/datasets/*.csv
+*.csv
