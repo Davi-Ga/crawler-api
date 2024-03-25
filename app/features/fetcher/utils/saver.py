@@ -13,7 +13,7 @@ class Saver:
             "uris": {
                 "uriAutores": data["dados"]["uriAutores"],
                 "uriPropPrincipal": data["dados"]["uriPropPrincipal"] if "uriPropPrincipal" in data["dados"] else None,
-                "uriUltimoRelator": data["dados"]["statusProposicao"]["uriUltimoRelator"] if "uriUltimoRelator" in data["dados"]["statusProposicao"] else None,
+                "uriUltimoRelator": data["dados"]["statusProposicao"]["uriUltimoRelator"] if "statusProposicao" in data["dados"] else None,
             },
         }
         return data_saving
@@ -21,13 +21,13 @@ class Saver:
     @classmethod
     def save_author_data(cls, data):
         data_saving = {
-            "nome": data["dados"]["nomeCivil"],
-            "cpf": data["dados"]["cpf"],
-            "foto": data["dados"]["ultimoStatus"]["urlFoto"],
-            "sexo": data["dados"]["sexo"],
-            "nascimento": data["dados"]["dataNascimento"],
-            "local_nascimento": f"{data['dados']['municipioNascimento']} - {data['dados']['ufNascimento']}",
-            "escolaridade": data["dados"]["escolaridade"],
+            "nome": data["dados"]["nomeCivil"] if "nomeCivil" in data["dados"] else data["dados"]["nome"],
+            "cpf": data["dados"]["cpf"] if "cpf" in data["dados"] else None,
+            "foto": data["dados"]["ultimoStatus"]["urlFoto"] if "ultimoStatus" in data["dados"] else None,
+            "sexo": data["dados"]["sexo"] if "sexo" in data["dados"] else None,
+            "nascimento": data["dados"]["dataNascimento"] if "dataNascimento" in data["dados"] else None,
+            "local_nascimento": f"{data['dados']['municipioNascimento']} - {data['dados']['ufNascimento']}" if "municipioNascimento" in data["dados"] else None,
+            "escolaridade": data["dados"]["escolaridade"] if "escolaridade" in data["dados"] else None,
         }
         return data_saving
 
