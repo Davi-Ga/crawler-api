@@ -13,3 +13,4 @@ requests
 typing_extensions
 webdriver-manager
 undetected-chromedriver
+requests
