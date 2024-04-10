@@ -1,5 +1,4 @@
 import requests
-import json
 
 class UriFetcher:
     @classmethod
@@ -18,6 +17,14 @@ class UriFetcher:
     
     @classmethod
     def fetch_author(cls, url):
+        response = requests.get(url)
+        data = response.json()
+        uri=data['dados'][0]['uri']
+        data = cls.fetch_uri_data(uri)
+        return data
+    
+    @classmethod
+    def fetch_political_party(cls, url):
         response = requests.get(url)
         data = response.json()
         uri=data['dados'][0]['uri']
