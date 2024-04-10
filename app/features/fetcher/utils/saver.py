@@ -13,6 +13,7 @@ class Saver:
                 if "ementaDetalhada" in data["dados"]
                 else None
             ),
+            "ano": (data["dados"]["ano"] if "ano" in data["dados"] else None),
             "keywords": data["dados"]["keywords"],
             "uris": {
                 "uriAutores": data["dados"]["uriAutores"],
@@ -61,14 +62,22 @@ class Saver:
                     if "escolaridade" in data["dados"]
                     else None
                 ),
+                "uris": {
+                    "uriPartido": (
+                        data["dados"]["ultimoStatus"]["uriPartido"]
+                        if "ultimoStatus" in data["dados"]
+                        and "uriPartido" in data["dados"]["ultimoStatus"]
+                        else None
+                    ),
+                },
             }
         else:
-            data_saving={
-                'nome': 'Não informado',
-                'cpf': 'Não informado',
-                'orgão': 'Sim',
+            data_saving = {
+                "nome": "Não informado",
+                "cpf": "Não informado",
+                "orgão": "Sim",
             }
-        
+
         return data_saving
 
     @classmethod
@@ -78,5 +87,15 @@ class Saver:
             "situacao": data["dados"]["statusProposicao"]["descricaoSituacao"],
             "tipo": data["dados"]["descricaoTipo"],
             "keywords": data["dados"]["keywords"],
+        }
+        return data_saving
+
+    @classmethod
+    def save_party_data(cls, data):
+        data_saving = {
+            "nome": data["dados"]["nome"],
+            "sigla": data["dados"]["sigla"],
+            "status": data["dados"]["status"]["situacao"],
+            "total_membros": data["dados"]["status"]["totalMembros"],
         }
         return data_saving
