@@ -1,19 +1,19 @@
 
 #  FAST
-fastapi
+# fastapi
 
-uvicorn
-beautifulsoup4
-pydantic
-pydantic_core
-PyPDF2
-python-multipart
-selenium
-python-dotenv
-requests
-typing_extensions
-webdriver-manager
-undetected-chromedriver
+# uvicorn
+# beautifulsoup4
+# pydantic
+# pydantic_core
+# PyPDF2
+# python-multipart
+# selenium
+# python-dotenv
+# requests
+# typing_extensions
+# webdriver-manager
+# undetected-chromedriver
 
 
 ## Modelo
