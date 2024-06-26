@@ -1,6 +1,7 @@
 fastapi
 numpy
 pandas
+jupyter
 uvicorn
 beautifulsoup4
 pydantic
