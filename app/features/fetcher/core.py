@@ -3,9 +3,12 @@ from utils.fetcher import UriFetcher
 from utils.saver import Saver
 
 
-max_pages = 1  # Substitua por seu número máximo de páginas
+max_pages = 200  # Substitua por seu número máximo de páginas
 data_list = []
-for page in range(1, max_pages + 1):
+with open("data.json", "r") as f:
+    existing_data = json.load(f)
+
+for page in range(151, max_pages + 1):
     fetch = UriFetcher.fetch_uris(
         f"https://dadosabertos.camara.leg.br/api/v2/proposicoes?ordem=ASC&ordenarPor=id&pagina={page}&itens=100"
     )
@@ -36,7 +39,7 @@ for page in range(1, max_pages + 1):
             )
             data_dict["proposicao_principal"] = data_principal_proposition
 
-        if data_author["uris"]["uriPartido"] is not None:
+        if data_author.get("uris") and data_author["uris"].get("uriPartido") is not None:
             party = UriFetcher.fetch_uri_data(
                 data_author["uris"]["uriPartido"],
             )
@@ -45,5 +48,7 @@ for page in range(1, max_pages + 1):
             
         data_list.append(data_dict)
 
+    existing_data.extend(data_list)
+    
 with open("data.json", "w") as f:
-    json.dump(data_list, f)
+    json.dump(existing_data, f)
